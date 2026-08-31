@@ -1,0 +1,85 @@
+{
+  "date": "2026-08-31",
+  "items": [
+    {
+      "source": "TechCrunch",
+      "region": "GL",
+      "cats": ["IA"],
+      "title": "Anthropic e OpenAI confirmadas no palco de IA do TechCrunch Disrupt 2026",
+      "summary": "A TechCrunch anunciou que Anthropic e OpenAI participarão do palco dedicado à inteligência artificial na edição 2026 do TechCrunch Disrupt. A presença das duas líderes do setor reforça o evento como um dos principais pontos de encontro do ecossistema de IA neste ano.",
+      "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "GL",
+      "cats": ["IA", "Startups"],
+      "title": "Stability AI capta US$ 76 milhões em nova rodada",
+      "summary": "A Stability AI, criadora do gerador de imagens Stable Diffusion, levantou US$ 76 milhões em uma rodada Série B, elevando o total captado pela startup a US$ 232 milhões. O aporte reforça o interesse de investidores por empresas de geração de imagem por IA mesmo em meio à forte concorrência do setor.",
+      "url": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "GL",
+      "cats": ["Tecnologia", "Startups"],
+      "title": "Starcloud recebe aporte de US$ 250 milhões para data centers em órbita",
+      "summary": "A startup Starcloud captou uma extensão de US$ 250 milhões para seu plano de construir data centers em órbita, em meio à escassez de opções de lançamento espacial. O investimento amplia a rodada Série A iniciada em março e mostra o crescente apetite por infraestrutura de computação fora da Terra.",
+      "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "GL",
+      "cats": ["Mercado de Trabalho", "IA"],
+      "title": "Monday.com se junta a lista de empresas que citam IA para justificar demissões",
+      "summary": "A Monday.com passou a integrar o levantamento da TechCrunch sobre empresas de tecnologia que atribuíram cortes de vagas à adoção de inteligência artificial em 2026. A lista já reúne cerca de 20 companhias que citaram IA como fator nas demissões ao longo do ano.",
+      "url": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/"
+    },
+    {
+      "source": "Canaltech",
+      "region": "BR",
+      "cats": ["Tecnologia"],
+      "title": "Justiça decreta falência da Oi, com dívida de R$ 22 bilhões",
+      "summary": "A Justiça do Rio de Janeiro decretou novamente a falência da operadora Oi, que acumula uma dívida de R$ 22 bilhões, encerrando mais uma tentativa de recuperação judicial da empresa. O caso marca o desfecho de anos de dificuldades financeiras da antiga gigante das telecomunicações brasileiras.",
+      "url": "https://canaltech.com.br/telecom/acabou-para-oi-justica-decreta-falencia-com-divida-de-r-22-bilhoes/"
+    },
+    {
+      "source": "Canaltech",
+      "region": "BR",
+      "cats": ["Tecnologia"],
+      "title": "Starlink direto no celular enfrenta novo obstáculo para chegar ao Brasil",
+      "summary": "A chegada da tecnologia Direct-to-Device da Starlink, que permite conectar celulares diretamente a satélites, esbarrou em um novo entrave regulatório no Brasil. O Ministério da Fazenda recomendou que a Anatel acompanhe de perto a tecnologia por questões concorrenciais.",
+      "url": "https://canaltech.com.br/telecom/starlink-direto-no-celular-enfrenta-novo-obstaculo-para-chegar-ao-brasil/"
+    },
+    {
+      "source": "InfoMoney",
+      "region": "BR",
+      "cats": ["Mercado de Trabalho"],
+      "title": "Os 10 cargos de tecnologia com salários de até R$ 53 mil por mês",
+      "summary": "Levantamento do InfoMoney mapeou os cargos mais disputados do setor de tecnologia no Brasil, com remunerações que chegam a R$ 53 mil mensais. Perfis ligados a inteligência artificial e engenharia de dados aparecem entre os mais valorizados pelas empresas.",
+      "url": "https://www.infomoney.com.br/carreira/perfil-mais-procurado-setor-tecnologia-trabalho/"
+    },
+    {
+      "source": "InfoMoney",
+      "region": "BR",
+      "cats": ["Mercado de Trabalho", "Dados"],
+      "title": "Onde estão os empregos em tecnologia no Brasil, com salários de até R$ 40,5 mil",
+      "summary": "Reportagem do InfoMoney mostra que o Sudeste ainda concentra a maior parte das vagas formais em tecnologia no país, mas outras regiões vêm ganhando espaço. Alguns cargos do setor chegam a pagar até R$ 40,5 mil por mês, em meio à escassez de profissionais qualificados relatada por recrutadores.",
+      "url": "https://www.infomoney.com.br/carreira/empregos-em-tecnologia/"
+    },
+    {
+      "source": "Exame",
+      "region": "BR",
+      "cats": ["IA", "Mercado de Trabalho"],
+      "title": "Empresas contratam quem sabe usar IA mesmo sem formação em tecnologia",
+      "summary": "Reportagem da Exame mostra que profissões de diferentes áreas passaram a valorizar candidatos capazes de incorporar ferramentas de inteligência artificial ao trabalho no dia a dia, independentemente de formação técnica. A tendência amplia as oportunidades para quem domina IA aplicada, mesmo fora de cargos tradicionais de tecnologia.",
+      "url": "https://exame.com/inteligencia-artificial/as-profissoes-que-estao-contratando-pessoas-que-sabem-usar-ia-mesmo-sem-formacao-em-tecnologia/"
+    },
+    {
+      "source": "IT Forum",
+      "region": "BR",
+      "cats": ["Tecnologia", "Mercado de Trabalho"],
+      "title": "IT Forum Trancoso 2026 debate o que vem depois da IA nas empresas",
+      "summary": "Lideranças de tecnologia se reuniram no IT Forum Trancoso 2026 para discutir os próximos passos após a onda inicial de adoção de inteligência artificial nas empresas. O debate girou em torno da orquestração de ecossistemas de IA e da geração de resultados concretos de negócio.",
+      "url": "https://itforum.com.br/noticias/it-forum-trancoso-2026-cios/"
+    }
+  ]
+}
