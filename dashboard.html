@@ -345,13 +345,14 @@
       <div class="masthead-sub">Tecnologia &amp; mercado de trabalho — Brasil e global. Painel de acompanhamento diário das 10 notícias selecionadas para o boletim.</div>
     </div>
     <div class="masthead-meta">
-      Edição de <strong>31 ago 2026</strong><br>
+      Edição de <strong id="editionDate">—</strong><br>
       Atualização diária · <strong>10:00</strong><br>
       10 fontes monitoradas
     </div>
   </div>
 
   <div class="stats" id="stats"></div>
+  <div class="empty-state" id="loadingState">Carregando edição do dia…</div>
 
   <div class="filter-bar" id="filterBar">
     <button class="chip reset active" data-reset>Todos</button>
@@ -387,88 +388,7 @@
     'Mercado de Trabalho': 'var(--tag-mdt-fg)'
   };
 
-  const NEWS = [
-    {
-      source: 'TechCrunch',
-      region: 'GL',
-      cats: ['Mercado de Trabalho', 'Tecnologia'],
-      title: 'Uber é multado em € 825 milhões por suspensão automatizada de motoristas na Holanda',
-      summary: 'A Autoridade de Proteção de Dados da Holanda aplicou multa de cerca de € 825 milhões (US$ 963 milhões) à Uber por suspender e desativar contas de motoristas por meio de sistemas automatizados, sem revisão humana adequada, entre 2020 e 2022. É a segunda maior penalidade já aplicada sob o GDPR europeu, atrás apenas da multa de € 1,2 bilhão imposta à Meta em 2023. A Uber disse discordar da decisão e afirmou que vai recorrer.',
-      url: 'https://techcrunch.com/2026/08/23/uber-faces-fine-of-nearly-1b-over-automated-driver-suspensions/'
-    },
-    {
-      source: 'TechCrunch',
-      region: 'GL',
-      cats: ['Startups', 'Tecnologia'],
-      title: 'Jeff Dean deixa o Google após 27 anos para fundar startup de pesquisa automatizada por IA',
-      summary: 'O cientista-chefe do Google DeepMind, Jeff Dean, deixou a empresa após quase três décadas para cofundar a Discovery Loop, startup que pretende automatizar o ciclo experimental da pesquisa científica usando IA. O projeto começa pela automação de pesquisa em machine learning e depois pretende expandir para design de hardware, descoberta de fármacos e energia limpa, com o Google seguindo como investidor fundador e parceiro de nuvem.',
-      url: null
-    },
-    {
-      source: 'TechCrunch',
-      region: 'GL',
-      cats: ['IA', 'Startups'],
-      title: "Ex-pretendentes da Prometheus lançam IA de física baseada em 'neural operators'",
-      summary: 'Anima Anandkumar e Benedikt Jenik, que recusaram uma oferta bilionária da startup Prometheus, lançaram a Accelerated Understanding, empresa de IA voltada à física que dispensa a arquitetura Transformer em favor de "neural operators". Em testes, o sistema processou 5 trilhões de pontos de dados em um único prompt, mirando aplicações como design de chips, robótica e previsão do tempo.',
-      url: null
-    },
-    {
-      source: 'Canaltech',
-      region: 'GL',
-      cats: ['IA', 'Tecnologia'],
-      title: 'WhatsApp testa recurso de IA para alertar sobre golpes',
-      summary: 'O WhatsApp começou a testar o Scam Alert, recurso que roda um modelo de IA diretamente no aparelho para identificar sinais de golpe em mensagens de remetentes desconhecidos, sem comprometer a criptografia de ponta a ponta. A funcionalidade está em beta limitado em algumas regiões e, segundo a Meta, ainda não chegou ao Brasil.',
-      url: 'https://canaltech.com.br/inteligencia-artificial/whatsapp-quer-usar-ia-para-barrar-golpes-e-proteger-usuarios/'
-    },
-    {
-      source: 'Olhar Digital',
-      region: 'BR',
-      cats: ['Dados', 'Tecnologia'],
-      title: 'ANPD multa TikTok em R$ 153,7 milhões por falhas na proteção de dados de crianças',
-      summary: 'A Autoridade Nacional de Proteção de Dados aplicou multa de R$ 153,7 milhões à ByteDance, dona do TikTok, por tratar dados pessoais de crianças e adolescentes sem base legal adequada. Entre outubro de 2022 e setembro de 2023 a plataforma baniu 7,75 milhões de contas de menores de 13 anos no Brasil; a empresa terá de apagar os dados irregulares e aplicar configurações de privacidade mais restritivas a menores de 16 anos.',
-      url: 'https://www.gov.br/anpd/pt-br/assuntos/noticias/anpd-multa-tiktok-em-r-153-7-milhoes-por-falhas-na-protecao-de-dados-de-criancas-e-adolescentes'
-    },
-    {
-      source: 'Exame',
-      region: 'BR',
-      cats: ['Startups', 'Tecnologia'],
-      title: 'Startup Summit 2026 reúne 10 mil pessoas em Florianópolis',
-      summary: 'A 9ª edição do Startup Summit começou no CentroSul, em Florianópolis, promovida pelo Sebrae Startups em parceria com a Acate, com expectativa de 10 mil visitantes, 250 fundos de investimento e mil startups expositoras. O evento deve gerar impacto econômico total de R$ 36,3 milhões na cidade.',
-      url: 'https://exame.com/negocios/startup-summit-comeca-em-florianopolis-com-previsao-de-10-mil-visitantes-e-impacto-de-r-363-mi/'
-    },
-    {
-      source: 'Exame',
-      region: 'BR',
-      cats: ['Startups', 'Mercado de Trabalho'],
-      title: 'Ranking EXAME Negócios em Expansão bate recorde de inscrições em 2026',
-      summary: 'O ranking EXAME Negócios em Expansão 2026 recebeu 838 inscrições, alta de 15% sobre 2025, e revelou em evento no BTG Pactual Hall, em São Paulo, as 491 empresas selecionadas. A cerimônia reuniu talks com nomes como Karla Felmanas, da Cimed, e Christian Rôças, da OpenAI.',
-      url: 'https://exame.com/negocios/exame-negocios-em-expansao-2026-ranking-bate-recorde-com-491-empresas-selecionadas/'
-    },
-    {
-      source: 'InfoMoney',
-      region: 'BR',
-      cats: ['Mercado de Trabalho', 'Dados'],
-      title: 'Geração de vagas formais no Brasil fica abaixo do esperado em julho',
-      summary: 'O Caged registrou a criação de 58,6 mil vagas formais em julho, bem abaixo das 115 mil esperadas pelo mercado, com o comércio puxando a desaceleração. Economistas apontam sinais de arrefecimento gradual do mercado de trabalho brasileiro, com possíveis reflexos no ritmo de crescimento do PIB.',
-      url: 'https://www.infomoney.com.br/economia/caged-julho-geracao-vagas-desaceleracao-economia/'
-    },
-    {
-      source: 'LinkedIn News Brasil',
-      region: 'BR',
-      cats: ['Mercado de Trabalho', 'IA'],
-      title: 'Engenheiro de IA lidera lista de profissões em alta no Brasil',
-      summary: 'Levantamento do LinkedIn aponta o engenheiro de IA como a profissão que mais cresce no Brasil, com vagas concentradas em São Paulo, Campinas e Curitiba e forte presença dos modelos híbrido e remoto. Pesquisas recentes mostram que 16,2% das vagas com salário acima de R$ 10 mil já exigem conhecimentos em inteligência artificial.',
-      url: null
-    },
-    {
-      source: 'IT Forum',
-      region: 'BR',
-      cats: ['Tecnologia', 'Dados'],
-      title: 'IA usada por atacantes deve intensificar ameaças cibernéticas em 2026',
-      summary: 'Reportagem do IT Forum destaca que a adoção de IA agêntica por atacantes está criando novas superfícies de ataque, enquanto a conscientização sobre segurança nas empresas segue insuficiente diante do crescimento do uso de IA generativa. O tráfego de IA generativa cresce mais de 890%, pressionando empresas a adotarem modelos de segurança nativos de nuvem com zero trust.',
-      url: 'https://itforum.com.br/noticias/uso-ia-atacantes-intensificar-ameacas-2026/'
-    }
-  ];
+  let NEWS = [];
 
   const grid = document.getElementById('grid');
   const statsEl = document.getElementById('stats');
@@ -479,7 +399,39 @@
   function catCount(cat) { return NEWS.filter(n => n.cats.includes(cat)).length; }
   function regionCount(r) { return NEWS.filter(n => n.region === r).length; }
 
-  statsEl.innerHTML = allCats.map(c => `
+  const MONTHS_PT = ['jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'set', 'out', 'nov', 'dez'];
+
+  function formatDatePt(dateStr) {
+    const [y, m, d] = dateStr.split('-').map(Number);
+    return `${String(d).padStart(2, '0')} ${MONTHS_PT[m - 1]} ${y}`;
+  }
+
+  async function loadLatestEdition() {
+    const tz = 'America/Sao_Paulo';
+    const fmt = new Intl.DateTimeFormat('en-CA', { timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit' });
+    const parts = fmt.formatToParts(new Date());
+    const get = t => Number(parts.find(p => p.type === t).value);
+    let cursor = Date.UTC(get('year'), get('month') - 1, get('day'));
+
+    for (let i = 0; i < 14; i++) {
+      const dateStr = new Date(cursor).toISOString().slice(0, 10);
+      try {
+        const res = await fetch(`data/${dateStr}.json`, { cache: 'no-store' });
+        if (res.ok) return await res.json();
+      } catch (e) { /* tenta o dia anterior */ }
+      cursor -= 86400000;
+    }
+    return null;
+  }
+
+  function renderEdition(edition) {
+    NEWS = edition.items;
+    document.getElementById('editionDate').textContent = formatDatePt(edition.date);
+    renderStatsAndGrid();
+  }
+
+  function renderStatsAndGrid() {
+    statsEl.innerHTML = allCats.map(c => `
     <div class="stat">
       <div class="stat-num" style="color:${CAT_COLOR[c]}">${catCount(c)}</div>
       <div class="stat-label">${c}</div>
@@ -521,6 +473,7 @@
       </article>
     `;
   }).join('');
+  }
 
   const active = { cats: new Set(), regions: new Set() };
 
@@ -564,6 +517,16 @@
     applyFilter();
   });
 
-  updateChipStates();
-  applyFilter();
+  (async function init() {
+    const loadingEl = document.getElementById('loadingState');
+    const edition = await loadLatestEdition();
+    if (!edition) {
+      loadingEl.textContent = 'Não foi possível carregar nenhuma edição recente do boletim.';
+      return;
+    }
+    loadingEl.hidden = true;
+    renderEdition(edition);
+    updateChipStates();
+    applyFilter();
+  })();
 </script>
