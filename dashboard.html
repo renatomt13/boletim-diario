@@ -1,0 +1,569 @@
+<title>Boletim Radar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #eef1f4;
+    --surface: #ffffff;
+    --surface-raised: #ffffff;
+    --ink: #161d29;
+    --ink-muted: #57616f;
+    --ink-faint: #8892a0;
+    --border: #dde2e8;
+    --border-strong: #c5ccd4;
+    --accent: #2648d6;
+    --accent-ink: #ffffff;
+    --accent-warm: #b0530e;
+
+    --tag-ia-bg: #efe8fb;    --tag-ia-fg: #5b3fa6;
+    --tag-tec-bg: #e3ebfc;   --tag-tec-fg: #2648d6;
+    --tag-startup-bg: #fdebdd; --tag-startup-fg: #b0530e;
+    --tag-dados-bg: #e0f3f1; --tag-dados-fg: #0e7c6e;
+    --tag-mdt-bg: #f5f0dd;   --tag-mdt-fg: #8a6d12;
+
+    --region-br-bg: #e4f3e1; --region-br-fg: #2e7d32;
+    --region-gl-bg: #e7eaf5; --region-gl-fg: #3b4b8c;
+
+    --shadow: 0 1px 2px rgba(22,29,41,0.04), 0 6px 16px -8px rgba(22,29,41,0.10);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #10141c;
+      --surface: #1a2029;
+      --surface-raised: #1f2733;
+      --ink: #edf0f4;
+      --ink-muted: #9aa5b1;
+      --ink-faint: #6b7684;
+      --border: #2b3340;
+      --border-strong: #3a4553;
+      --accent: #7690ff;
+      --accent-ink: #0d1424;
+      --accent-warm: #e0985a;
+
+      --tag-ia-bg: #241c38;    --tag-ia-fg: #c3aef2;
+      --tag-tec-bg: #1c2740;   --tag-tec-fg: #9fb3ff;
+      --tag-startup-bg: #3a2517; --tag-startup-fg: #f3b378;
+      --tag-dados-bg: #123330; --tag-dados-fg: #6fd6c6;
+      --tag-mdt-bg: #332c12;   --tag-mdt-fg: #e2c25b;
+
+      --region-br-bg: #16311a; --region-br-fg: #7fce85;
+      --region-gl-bg: #1c2440; --region-gl-fg: #9aabf0;
+
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 20px -10px rgba(0,0,0,0.5);
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --bg: #10141c;
+    --surface: #1a2029;
+    --surface-raised: #1f2733;
+    --ink: #edf0f4;
+    --ink-muted: #9aa5b1;
+    --ink-faint: #6b7684;
+    --border: #2b3340;
+    --border-strong: #3a4553;
+    --accent: #7690ff;
+    --accent-ink: #0d1424;
+    --accent-warm: #e0985a;
+
+    --tag-ia-bg: #241c38;    --tag-ia-fg: #c3aef2;
+    --tag-tec-bg: #1c2740;   --tag-tec-fg: #9fb3ff;
+    --tag-startup-bg: #3a2517; --tag-startup-fg: #f3b378;
+    --tag-dados-bg: #123330; --tag-dados-fg: #6fd6c6;
+    --tag-mdt-bg: #332c12;   --tag-mdt-fg: #e2c25b;
+
+    --region-br-bg: #16311a; --region-br-fg: #7fce85;
+    --region-gl-bg: #1c2440; --region-gl-fg: #9aabf0;
+
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 20px -10px rgba(0,0,0,0.5);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'IBM Plex Sans', system-ui, sans-serif;
+    padding: clamp(16px, 4vw, 48px);
+  }
+
+  a { color: inherit; }
+
+  .wrap { max-width: 1180px; margin: 0 auto; }
+
+  /* ---------- Masthead ---------- */
+  .masthead {
+    border-bottom: 3px solid var(--ink);
+    padding-bottom: 18px;
+    margin-bottom: 22px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .masthead-title {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: clamp(2.2rem, 6vw, 3.4rem);
+    line-height: 0.9;
+    letter-spacing: 0.01em;
+    text-wrap: balance;
+  }
+  .masthead-title span { color: var(--accent); }
+  .masthead-meta {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--ink-muted);
+    text-align: right;
+    line-height: 1.6;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .masthead-meta strong { color: var(--ink); font-weight: 600; }
+  .masthead-sub {
+    font-size: 0.95rem;
+    color: var(--ink-muted);
+    max-width: 62ch;
+    margin-top: 6px;
+  }
+
+  /* ---------- Stat strip ---------- */
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 24px;
+  }
+  .stat {
+    background: var(--surface);
+    padding: 12px 16px;
+  }
+  .stat-num {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    font-size: 1.9rem;
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+  }
+  .stat-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--ink-muted);
+    margin-top: 4px;
+  }
+
+  /* ---------- Filter bar ---------- */
+  .filter-bar {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background: var(--bg);
+    padding: 12px 0;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    border-bottom: 1px solid var(--border);
+  }
+  .filter-group-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-faint);
+    margin-right: 2px;
+  }
+  .divider-v {
+    width: 1px;
+    align-self: stretch;
+    background: var(--border-strong);
+    margin: 0 4px;
+  }
+
+  .chip {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 0.82rem;
+    font-weight: 600;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    padding: 6px 12px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: transform 0.12s ease, box-shadow 0.12s ease;
+    background: var(--surface);
+    color: var(--ink-muted);
+    border-color: var(--border-strong);
+  }
+  .chip:hover { transform: translateY(-1px); }
+  .chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .chip .count {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.72rem;
+    opacity: 0.7;
+  }
+
+  .chip[data-cat="IA"].active         { background: var(--tag-ia-bg); color: var(--tag-ia-fg); border-color: var(--tag-ia-fg); }
+  .chip[data-cat="Tecnologia"].active { background: var(--tag-tec-bg); color: var(--tag-tec-fg); border-color: var(--tag-tec-fg); }
+  .chip[data-cat="Startups"].active   { background: var(--tag-startup-bg); color: var(--tag-startup-fg); border-color: var(--tag-startup-fg); }
+  .chip[data-cat="Dados"].active      { background: var(--tag-dados-bg); color: var(--tag-dados-fg); border-color: var(--tag-dados-fg); }
+  .chip[data-cat="Mercado de Trabalho"].active { background: var(--tag-mdt-bg); color: var(--tag-mdt-fg); border-color: var(--tag-mdt-fg); }
+  .chip[data-region="BR"].active { background: var(--region-br-bg); color: var(--region-br-fg); border-color: var(--region-br-fg); }
+  .chip[data-region="GL"].active { background: var(--region-gl-bg); color: var(--region-gl-fg); border-color: var(--region-gl-fg); }
+  .chip.reset.active, .chip.reset:hover { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+
+  .result-count {
+    margin-left: auto;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.75rem;
+    color: var(--ink-faint);
+    white-space: nowrap;
+  }
+
+  /* ---------- Card grid ---------- */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+  }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent-cat, var(--border-strong));
+    border-radius: 10px;
+    padding: 16px 18px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: opacity 0.15s ease, transform 0.15s ease;
+  }
+  .card[hidden] { display: none; }
+
+  .card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+  }
+  .card-source {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--ink-faint);
+    font-weight: 500;
+  }
+  .region-flag {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.66rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    padding: 2px 7px;
+    border-radius: 4px;
+  }
+  .region-flag.BR { background: var(--region-br-bg); color: var(--region-br-fg); }
+  .region-flag.GL { background: var(--region-gl-bg); color: var(--region-gl-fg); }
+
+  .card-title {
+    font-size: 1.08rem;
+    font-weight: 700;
+    line-height: 1.3;
+    text-wrap: balance;
+  }
+  .card-title a { text-decoration: none; }
+  .card-title a:hover { text-decoration: underline; text-decoration-color: var(--accent); }
+
+  .card-summary {
+    font-size: 0.9rem;
+    color: var(--ink-muted);
+    line-height: 1.55;
+  }
+
+  .card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: auto;
+    padding-top: 4px;
+  }
+  .tag {
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 3px 9px;
+    border-radius: 999px;
+  }
+  .tag.IA { background: var(--tag-ia-bg); color: var(--tag-ia-fg); }
+  .tag.Tecnologia { background: var(--tag-tec-bg); color: var(--tag-tec-fg); }
+  .tag.Startups { background: var(--tag-startup-bg); color: var(--tag-startup-fg); }
+  .tag.Dados { background: var(--tag-dados-bg); color: var(--tag-dados-fg); }
+  .tag.Mercado_de_Trabalho { background: var(--tag-mdt-bg); color: var(--tag-mdt-fg); }
+
+  .no-link { color: var(--ink); }
+
+  .empty-state {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 48px 16px;
+    color: var(--ink-faint);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.85rem;
+  }
+
+  footer {
+    margin-top: 32px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.72rem;
+    color: var(--ink-faint);
+    line-height: 1.7;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .chip, .card { transition: none; }
+  }
+</style>
+
+<div class="wrap">
+
+  <div class="masthead">
+    <div>
+      <div class="masthead-title">Boletim <span>Radar</span></div>
+      <div class="masthead-sub">Tecnologia &amp; mercado de trabalho — Brasil e global. Painel de acompanhamento diário das 10 notícias selecionadas para o boletim.</div>
+    </div>
+    <div class="masthead-meta">
+      Edição de <strong>31 ago 2026</strong><br>
+      Atualização diária · <strong>10:00</strong><br>
+      10 fontes monitoradas
+    </div>
+  </div>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="filter-bar" id="filterBar">
+    <button class="chip reset active" data-reset>Todos</button>
+    <div class="divider-v"></div>
+    <span class="filter-group-label">Tema</span>
+    <button class="chip" data-cat="IA">IA <span class="count"></span></button>
+    <button class="chip" data-cat="Tecnologia">Tecnologia <span class="count"></span></button>
+    <button class="chip" data-cat="Startups">Startups <span class="count"></span></button>
+    <button class="chip" data-cat="Dados">Dados <span class="count"></span></button>
+    <button class="chip" data-cat="Mercado de Trabalho">Mercado de Trabalho <span class="count"></span></button>
+    <div class="divider-v"></div>
+    <span class="filter-group-label">Região</span>
+    <button class="chip" data-region="BR">Brasil <span class="count"></span></button>
+    <button class="chip" data-region="GL">Global <span class="count"></span></button>
+    <span class="result-count" id="resultCount"></span>
+  </div>
+
+  <div class="grid" id="grid"></div>
+
+  <footer>
+    Escopo: tecnologia, IA, startups, dados e mercado de trabalho — Brasil e global.<br>
+    Fontes configuradas: Canaltech, TechCrunch, Olhar Digital, TechTudo, The Verge, InfoMoney, Valor Econômico, Exame, IT Forum, LinkedIn News Brasil.<br>
+    Itens desta edição levantados via busca em 31/08/2026 a partir das fontes acima.
+  </footer>
+</div>
+
+<script>
+  const CAT_COLOR = {
+    'IA': 'var(--tag-ia-fg)',
+    'Tecnologia': 'var(--tag-tec-fg)',
+    'Startups': 'var(--tag-startup-fg)',
+    'Dados': 'var(--tag-dados-fg)',
+    'Mercado de Trabalho': 'var(--tag-mdt-fg)'
+  };
+
+  const NEWS = [
+    {
+      source: 'TechCrunch',
+      region: 'GL',
+      cats: ['IA', 'Tecnologia'],
+      title: 'Nvidia mostra que orquestração, não o modelo, é o novo diferencial da IA',
+      summary: 'A Nvidia argumenta que o salto competitivo em produtos de IA já não vem do modelo de linguagem em si, mas do "harness" — a camada de orquestração, ferramentas e contexto ao redor dele. A leitura reforça a corrida das big techs por engenharia de sistemas, não só por modelos maiores.',
+      url: 'https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/'
+    },
+    {
+      source: 'TechCrunch',
+      region: 'GL',
+      cats: ['IA', 'Startups'],
+      title: 'DeepSeek negocia rodada bilionária e mira IPO para 2027',
+      summary: 'A chinesa DeepSeek está fechando uma captação de cerca de 50 bilhões de yuans (~US$ 7,4 bi), avaliando a empresa em aproximadamente US$ 74 bilhões. O aporte prepara terreno para um possível IPO em 2027, com estreia prevista na bolsa STAR Market de Xangai.',
+      url: null
+    },
+    {
+      source: 'TechCrunch',
+      region: 'GL',
+      cats: ['IA', 'Tecnologia'],
+      title: 'Anthropic desconecta usuários do Claude após ataque de infostealer',
+      summary: 'A empresa passou a deslogar contas afetadas, apagar métodos de pagamento salvos e reembolsar cobranças indevidas depois que malware do tipo infostealer roubou sessões ativas de login em PCs infectados, consumindo limites de uso sem autorização dos donos das contas.',
+      url: null
+    },
+    {
+      source: 'Olhar Digital',
+      region: 'GL',
+      cats: ['IA', 'Tecnologia'],
+      title: 'Justiça dos EUA barra bloqueio do governo Trump à Anthropic',
+      summary: 'A Justiça americana considerou ilegal a decisão do governo Trump de classificar a Anthropic como "risco à cadeia de suprimentos", medida que impedia a empresa de fechar negócios com a Casa Branca.',
+      url: null
+    },
+    {
+      source: 'Olhar Digital',
+      region: 'BR',
+      cats: ['Tecnologia', 'Dados'],
+      title: 'Alibaba Cloud começa a operar oficialmente no Brasil',
+      summary: 'A gigante chinesa deu início à operação de dois data centers no país, oferecendo serviços de nuvem para empresas, startups, desenvolvedores e instituições públicas — mais um sinal da disputa global por infraestrutura de nuvem e IA em território brasileiro.',
+      url: null
+    },
+    {
+      source: 'Exame',
+      region: 'BR',
+      cats: ['IA', 'Startups'],
+      title: 'Sete IAs brasileiras chamam atenção de investidores e grandes empresas',
+      summary: 'Levantamento aponta startups nacionais de inteligência artificial que vêm atraindo capital e parcerias, aplicando IA a problemas concretos de setores como agronegócio, saúde, logística e jurídico — em vez de competir diretamente com os grandes modelos internacionais.',
+      url: 'https://exame.com/inteligencia-artificial/7-ias-brasileiras-que-estao-chamando-a-atencao-de-investidores-e-grandes-empresas/'
+    },
+    {
+      source: 'Exame',
+      region: 'BR',
+      cats: ['Startups', 'Dados'],
+      title: 'Infraestrutura trava avanço de IA em 1 a cada 3 startups brasileiras',
+      summary: 'Pesquisa da AXIA Energia mostra que, para 35,6% das startups do país, a falta de infraestrutura de processamento já limitou projetos, atendimento a clientes ou escalabilidade de soluções baseadas em inteligência artificial.',
+      url: 'https://exame.com/bussola/um-terco-das-startups-nao-avancam-em-ia-devido-a-falta-de-infraestrutura/'
+    },
+    {
+      source: 'IT Forum',
+      region: 'BR',
+      cats: ['Tecnologia', 'Mercado de Trabalho'],
+      title: 'CIOs debatem no IT Forum Trancoso o que vem depois da IA',
+      summary: 'Lideranças de tecnologia se reuniram no IT Forum Trancoso 2026 para discutir os próximos passos após a onda inicial de adoção de IA nas empresas, com foco em orquestração de ecossistemas e geração concreta de resultado de negócio.',
+      url: 'https://itforum.com.br/noticias/it-forum-trancoso-2026-cios/'
+    },
+    {
+      source: 'InfoMoney',
+      region: 'BR',
+      cats: ['Mercado de Trabalho', 'Dados'],
+      title: 'Vagas de tecnologia crescem mais rápido fora do eixo Sudeste',
+      summary: 'O Sudeste ainda concentra a maior parte das posições formais em tecnologia no Brasil, mas Norte, Nordeste e Centro-Oeste vêm registrando crescimento mais acelerado, em meio à escassez de profissionais qualificados apontada por recrutadores.',
+      url: 'https://www.infomoney.com.br/carreira/empregos-em-tecnologia/'
+    },
+    {
+      source: 'Exame',
+      region: 'BR',
+      cats: ['Startups', 'IA'],
+      title: 'Florianópolis reúne ecossistema de startups no Startup Investment Summit',
+      summary: 'O SIS 2026 juntou investidores, empreendedores e executivos no CentroSul para discutir como a inteligência artificial está redefinindo estratégias de investimento e o futuro do ecossistema de startups no Brasil.',
+      url: null
+    }
+  ];
+
+  const grid = document.getElementById('grid');
+  const statsEl = document.getElementById('stats');
+  const resultCountEl = document.getElementById('resultCount');
+
+  const allCats = ['IA', 'Tecnologia', 'Startups', 'Dados', 'Mercado de Trabalho'];
+
+  function catCount(cat) { return NEWS.filter(n => n.cats.includes(cat)).length; }
+  function regionCount(r) { return NEWS.filter(n => n.region === r).length; }
+
+  statsEl.innerHTML = allCats.map(c => `
+    <div class="stat">
+      <div class="stat-num" style="color:${CAT_COLOR[c]}">${catCount(c)}</div>
+      <div class="stat-label">${c}</div>
+    </div>
+  `).join('') + `
+    <div class="stat">
+      <div class="stat-num">${NEWS.length}</div>
+      <div class="stat-label">Total na edição</div>
+    </div>
+  `;
+
+  document.querySelectorAll('.chip[data-cat] .count').forEach(el => {
+    const cat = el.closest('.chip').dataset.cat;
+    el.textContent = catCount(cat);
+  });
+  document.querySelectorAll('.chip[data-region] .count').forEach(el => {
+    const r = el.closest('.chip').dataset.region;
+    el.textContent = regionCount(r);
+  });
+
+  function slug(cat) { return cat.replace(/ /g, '_'); }
+
+  grid.innerHTML = NEWS.map((n, i) => {
+    const primaryCat = n.cats[0];
+    const titleInner = n.url
+      ? `<a href="${n.url}" target="_blank" rel="noopener">${n.title}</a>`
+      : `<span class="no-link">${n.title}</span>`;
+    return `
+      <article class="card" data-id="${i}" data-cats="${n.cats.join('|')}" data-region="${n.region}" style="--accent-cat:${CAT_COLOR[primaryCat]}">
+        <div class="card-top">
+          <span class="card-source">${n.source}</span>
+          <span class="region-flag ${n.region}">${n.region === 'BR' ? 'BRASIL' : 'GLOBAL'}</span>
+        </div>
+        <h2 class="card-title">${titleInner}</h2>
+        <p class="card-summary">${n.summary}</p>
+        <div class="card-tags">
+          ${n.cats.map(c => `<span class="tag ${slug(c)}">${c}</span>`).join('')}
+        </div>
+      </article>
+    `;
+  }).join('');
+
+  const active = { cats: new Set(), regions: new Set() };
+
+  function updateChipStates() {
+    document.querySelectorAll('.chip[data-cat]').forEach(chip => {
+      chip.classList.toggle('active', active.cats.has(chip.dataset.cat));
+    });
+    document.querySelectorAll('.chip[data-region]').forEach(chip => {
+      chip.classList.toggle('active', active.regions.has(chip.dataset.region));
+    });
+    const anyActive = active.cats.size > 0 || active.regions.size > 0;
+    document.querySelector('.chip.reset').classList.toggle('active', !anyActive);
+  }
+
+  function applyFilter() {
+    let visible = 0;
+    document.querySelectorAll('.card').forEach(card => {
+      const cardCats = card.dataset.cats.split('|');
+      const cardRegion = card.dataset.region;
+      const catMatch = active.cats.size === 0 || cardCats.some(c => active.cats.has(c));
+      const regionMatch = active.regions.size === 0 || active.regions.has(cardRegion);
+      const show = catMatch && regionMatch;
+      card.hidden = !show;
+      if (show) visible++;
+    });
+    resultCountEl.textContent = `${visible} de ${NEWS.length} notícias`;
+  }
+
+  document.getElementById('filterBar').addEventListener('click', (e) => {
+    const chip = e.target.closest('.chip');
+    if (!chip) return;
+    if (chip.hasAttribute('data-reset')) {
+      active.cats.clear();
+      active.regions.clear();
+    } else if (chip.dataset.cat) {
+      active.cats.has(chip.dataset.cat) ? active.cats.delete(chip.dataset.cat) : active.cats.add(chip.dataset.cat);
+    } else if (chip.dataset.region) {
+      active.regions.has(chip.dataset.region) ? active.regions.delete(chip.dataset.region) : active.regions.add(chip.dataset.region);
+    }
+    updateChipStates();
+    applyFilter();
+  });
+
+  updateChipStates();
+  applyFilter();
+</script>
