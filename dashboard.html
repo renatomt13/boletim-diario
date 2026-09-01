@@ -123,6 +123,20 @@
     letter-spacing: 0.04em;
   }
   .masthead-meta strong { color: var(--ink); font-weight: 600; }
+  .edition-select {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--ink);
+    background: var(--surface);
+    border: 1px solid var(--border-strong);
+    border-radius: 6px;
+    padding: 3px 8px;
+    cursor: pointer;
+  }
+  .edition-select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   .masthead-sub {
     font-size: 0.95rem;
     color: var(--ink-muted);
@@ -345,7 +359,7 @@
       <div class="masthead-sub">Tecnologia &amp; mercado de trabalho — Brasil e global. Painel de acompanhamento diário das 10 notícias selecionadas para o boletim.</div>
     </div>
     <div class="masthead-meta">
-      Edição de <strong id="editionDate">—</strong><br>
+      Edição de <select id="editionSelect" class="edition-select"></select><br>
       Atualização diária · <strong>10:00</strong><br>
       10 fontes monitoradas
     </div>
@@ -375,7 +389,7 @@
   <footer>
     Escopo: tecnologia, IA, startups, dados e mercado de trabalho — Brasil e global.<br>
     Fontes configuradas: Canaltech, TechCrunch, Olhar Digital, TechTudo, The Verge, InfoMoney, Valor Econômico, Exame, IT Forum, LinkedIn News Brasil.<br>
-    Itens desta edição levantados via busca em 31/08/2026 a partir das fontes acima.
+    Itens desta edição levantados via busca em <span id="editionFooterDate">—</span> a partir das fontes acima.
   </footer>
 </div>
 
@@ -406,27 +420,35 @@
     return `${String(d).padStart(2, '0')} ${MONTHS_PT[m - 1]} ${y}`;
   }
 
-  async function loadLatestEdition() {
+  async function discoverEditions(maxEditions = 7, maxDaysScanned = 30) {
     const tz = 'America/Sao_Paulo';
     const fmt = new Intl.DateTimeFormat('en-CA', { timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit' });
     const parts = fmt.formatToParts(new Date());
     const get = t => Number(parts.find(p => p.type === t).value);
     let cursor = Date.UTC(get('year'), get('month') - 1, get('day'));
 
-    for (let i = 0; i < 14; i++) {
+    const editions = [];
+    for (let i = 0; i < maxDaysScanned && editions.length < maxEditions; i++) {
       const dateStr = new Date(cursor).toISOString().slice(0, 10);
       try {
         const res = await fetch(`data/${dateStr}.json`, { cache: 'no-store' });
-        if (res.ok) return await res.json();
-      } catch (e) { /* tenta o dia anterior */ }
+        if (res.ok) editions.push(await res.json());
+      } catch (e) { /* dia sem edição publicada, tenta o anterior */ }
       cursor -= 86400000;
     }
-    return null;
+    return editions;
+  }
+
+  function populateEditionSelect(editions, onSelect) {
+    const select = document.getElementById('editionSelect');
+    select.innerHTML = editions.map((ed, i) => `<option value="${i}">${formatDatePt(ed.date)}</option>`).join('');
+    select.addEventListener('change', () => onSelect(editions[Number(select.value)]));
   }
 
   function renderEdition(edition) {
     NEWS = edition.items;
-    document.getElementById('editionDate').textContent = formatDatePt(edition.date);
+    const label = formatDatePt(edition.date);
+    document.getElementById('editionFooterDate').textContent = label;
     renderStatsAndGrid();
   }
 
@@ -519,13 +541,20 @@
 
   (async function init() {
     const loadingEl = document.getElementById('loadingState');
-    const edition = await loadLatestEdition();
-    if (!edition) {
+    const editions = await discoverEditions();
+    if (editions.length === 0) {
       loadingEl.textContent = 'Não foi possível carregar nenhuma edição recente do boletim.';
       return;
     }
     loadingEl.hidden = true;
-    renderEdition(edition);
+    populateEditionSelect(editions, (edition) => {
+      renderEdition(edition);
+      active.cats.clear();
+      active.regions.clear();
+      updateChipStates();
+      applyFilter();
+    });
+    renderEdition(editions[0]);
     updateChipStates();
     applyFilter();
   })();
