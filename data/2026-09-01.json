@@ -1,0 +1,85 @@
+{
+  "date": "2026-09-01",
+  "items": [
+    {
+      "source": "TechCrunch",
+      "region": "GL",
+      "cats": ["IA", "Tecnologia"],
+      "title": "Pentágono lança sua própria versão do ChatGPT e do Grok para militares",
+      "summary": "O Departamento de Defesa dos EUA abriu o portal GenAI.mil, reunindo o ChatGPT Mil, da OpenAI, e o Grok for Government, da xAI/Starshield, além do Google Gemini, para cerca de 3 milhões de militares e servidores civis. Segundo a reportagem, 1,7 milhão de usuários já haviam acessado a plataforma logo após o lançamento.",
+      "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "GL",
+      "cats": ["Tecnologia"],
+      "title": "Tim Cook deixa mensagem de despedida à Apple e endossa sucessor",
+      "summary": "Em memorando de despedida aos funcionários, Tim Cook descreveu John Ternus, seu sucessor no comando da Apple, como um 'construtor de produtos' com ampla experiência em linhas como iPhone, Mac e AirPods. A mensagem marca a transição de liderança na fabricante após anos com Cook à frente da empresa.",
+      "url": "https://techcrunch.com/2026/08/31/tim-cooks-parting-message-apple-is-in-the-hands-of-a-product-builder/"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "GL",
+      "cats": ["Startups"],
+      "title": "a16z expande fundo de growth para US$ 8,5 bilhões",
+      "summary": "A gestora de venture capital Andreessen Horowitz (a16z) ampliou seu quinto fundo de growth para US$ 8,5 bilhões, dias depois de lançar um novo fundo de US$ 1,1 bilhão. O movimento reforça o apetite da gestora por apostas em estágios mais avançados de startups.",
+      "url": "https://techcrunch.com/2026/08/31/a16z-brings-growth-fund-to-8-5b-days-after-launching-new-1-1b-fund/"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "GL",
+      "cats": ["Startups", "IA"],
+      "title": "Ex-aluno de Direito de Harvard capta US$ 6 milhões para IA jurídica policial",
+      "summary": "A Blue Voice, startup fundada por um ex-aluno da faculdade de Direito de Harvard, saiu do modo stealth com uma rodada de US$ 6 milhões liderada por SignalFire e Las Olas VC. A empresa pretende construir uma espécie de 'Harvey para policiais', ferramenta de IA voltada a tarefas jurídicas de departamentos de polícia.",
+      "url": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/"
+    },
+    {
+      "source": "Olhar Digital",
+      "region": "BR",
+      "cats": ["Tecnologia", "Dados"],
+      "title": "X é questionado por recomendar perfis de candidatos mesmo após atualizar filtro",
+      "summary": "A rede social X foi criticada por continuar recomendando perfis de candidatos políticos na aba 'Quem seguir' mesmo depois de anunciar uma atualização no filtro que deveria evitar esse tipo de sugestão. O caso reacende o debate sobre transparência de algoritmos de recomendação em plataformas sociais.",
+      "url": "https://olhardigital.com.br/2026/08/31/internet-e-redes-sociais/quem-seguir-e-questionado-por-recomendar-candidatos-mesmo-apos-atualizar-filtro"
+    },
+    {
+      "source": "TechTudo",
+      "region": "BR",
+      "cats": ["Tecnologia"],
+      "title": "Impedimento semiautomático volta a gerar polêmica sobre precisão no Brasileirão",
+      "summary": "A tecnologia de impedimento semiautomático, usada para auxiliar a arbitragem no Campeonato Brasileiro, voltou a ser questionada após decisões controversas em rodadas recentes. Reportagem do TechTudo discute os limites de precisão do sistema e as críticas de comissões técnicas ao seu uso no futebol nacional.",
+      "url": "https://www.techtudo.com.br/noticias/2026/09/impedimento-semiautomatico-e-preciso-tecnologia-gera-polemica-no-brasileirao-edinfoeletro.ghtml"
+    },
+    {
+      "source": "Exame",
+      "region": "BR",
+      "cats": ["IA", "Tecnologia"],
+      "title": "Grupo Boticário testa anúncios dentro do ChatGPT no Brasil",
+      "summary": "O Grupo Boticário iniciou um piloto de anúncios dentro do ChatGPT, com a marca Make B. sendo a primeira do portfólio a participar do teste iniciado em agosto. Segundo a Exame, os anúncios aparecem abaixo das respostas do chatbot e são identificados como conteúdo patrocinado, separados visualmente do texto gerado pela IA.",
+      "url": "https://exame.com/inteligencia-artificial/grupo-boticario-testa-anuncios-no-chatgpt-e-explora-nova-fronteira-da-publicidade-no-brasil/"
+    },
+    {
+      "source": "Exame",
+      "region": "BR",
+      "cats": ["Startups"],
+      "title": "Bloom Care, startup de maternidade, capta R$ 3 milhões",
+      "summary": "A Bloom Care, startup brasileira voltada à maternidade, captou uma rodada de R$ 3 milhões e já se prepara para buscar uma Série A. O aporte deve ser usado para expandir a operação da empresa no setor de saúde e bem-estar materno.",
+      "url": "https://exame.com/insight/bloom-care-a-startup-da-maternidade-capta-r-3-mi-e-prepara-serie-a/"
+    },
+    {
+      "source": "LinkedIn News Brasil",
+      "region": "BR",
+      "cats": ["Mercado de Trabalho"],
+      "title": "Contratações no Brasil seguem abaixo do nível pré-pandemia, aponta LinkedIn",
+      "summary": "Dados do LinkedIn mostram que o volume de contratações no Brasil, medido pela plataforma, ainda está cerca de 5% abaixo do patamar registrado antes da pandemia. Mais da metade dos brasileiros consultados em pesquisas internas da rede afirma que ficou mais difícil conseguir emprego no país.",
+      "url": null
+    },
+    {
+      "source": "IT Forum",
+      "region": "BR",
+      "cats": ["IA", "Tecnologia"],
+      "title": "AWS, Intel e Opah IT debatem como escalar IA sem disparar custos",
+      "summary": "Executivos da AWS, Intel e Opah IT discutiram, durante o IT Forum Praia do Forte 2026, estratégias para escalar o uso de inteligência artificial nas empresas sem multiplicar os custos de infraestrutura. O painel fez parte da programação do evento, realizado entre 19 e 23 de agosto na Bahia.",
+      "url": "https://itforum.com.br/noticias/aws-opah-intel-praia-do-forte-2026/"
+    }
+  ]
+}
