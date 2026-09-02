@@ -1,0 +1,85 @@
+{
+  "date": "2026-09-02",
+  "items": [
+    {
+      "source": "Bloomberg",
+      "region": "GL",
+      "cats": ["IA"],
+      "title": "Anthropic fecha acordo de US$ 35 bilhões com a Lambda, apoiada pela Nvidia",
+      "summary": "A Anthropic assinou um contrato de US$ 35 bilhões com a Lambda, provedora de nuvem apoiada pela Nvidia, para garantir capacidade de GPUs em um novo data center no Texas. O projeto, desenvolvido pela Hut 8 no condado de Nueces, deve fornecer cerca de 350 megawatts de capacidade computacional para treinamento e inferência de modelos da Anthropic. O acordo se soma a um compromisso anterior de US$ 45 bilhões com a Nscale, elevando os gastos recentes da empresa em infraestrutura de nuvem a US$ 80 bilhões.",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-31/anthropic-seals-35-billion-cloud-deal-with-nvidia-backed-lambda"
+    },
+    {
+      "source": "Euronews",
+      "region": "GL",
+      "cats": ["IA", "Tecnologia"],
+      "title": "União Europeia classifica o ChatGPT como \"motor de busca online de muito grande dimensão\"",
+      "summary": "A Comissão Europeia designou o ChatGPT, da OpenAI, como um motor de busca online de muito grande dimensão sob a Lei de Serviços Digitais (DSA), ao lado do Reddit e do Roblox, classificados como plataformas. A decisão veio depois que a OpenAI reportou cerca de 159 milhões de usuários médios mensais do ChatGPT search na União Europeia, bem acima do limite de 45 milhões usado pelo bloco. A OpenAI tem até janeiro de 2027 para se adequar às regras mais rígidas da categoria, sob risco de multas de até 6% do faturamento global da empresa.",
+      "url": "https://www.euronews.com/next/2026/08/31/eu-places-chatgpt-reddit-and-roblox-under-strictest-digital-safety-rules"
+    },
+    {
+      "source": "InfoMoney",
+      "region": "BR",
+      "cats": ["Tecnologia"],
+      "title": "Senado aprova Redata, regime tributário especial para data centers no Brasil",
+      "summary": "O Senado aprovou o projeto de lei que cria o Regime Especial de Tributação para Serviços de Datacenter (Redata), com suspensão de PIS/Cofins, IPI e Imposto de Importação para empresas que instalarem ou ampliarem data centers no país. O texto, que já havia passado pela Câmara, segue agora para sanção presidencial. O governo estima uma renúncia fiscal de cerca de R$ 5,2 bilhões em 2026, com impacto de R$ 1 bilhão por ano nos dois anos seguintes.",
+      "url": "https://www.infomoney.com.br/politica/senado-aprova-projeto-para-atrair-datas-centers-no-brasil-texto-vai-a-sancao/"
+    },
+    {
+      "source": "Exame",
+      "region": "BR",
+      "cats": ["IA", "Startups"],
+      "title": "Dez startups brasileiras de IA estão na mira de investidores em 2026",
+      "summary": "Um levantamento da Value Capital Advisors, feito a pedido da Forbes Brasil e destacado pela Exame, identificou dez startups brasileiras de inteligência artificial com potencial para captar até US$ 100 milhões em 2026. As empresas mais bem posicionadas usam IA para resolver problemas concretos em setores como saúde, agronegócio, logística e jurídico, em vez de competir diretamente com grandes modelos de linguagem internacionais. A diferenciação está no conhecimento profundo do setor, na qualidade dos dados usados e na capacidade de integrar IA aos fluxos de trabalho dos clientes.",
+      "url": "https://exame.com/inteligencia-artificial/dez-startups-brasileiras-de-ia-na-mira-de-investidores-em-2026/"
+    },
+    {
+      "source": "Exame",
+      "region": "GL",
+      "cats": ["Mercado de Trabalho", "IA"],
+      "title": "Mais de 30 empresas já demitiram em 2026, mas IA não é o único motivo",
+      "summary": "Reportagem da Exame mostra que mais de 30 grandes empresas anunciaram cortes de vagas em 2026, em setores que vão de tecnologia a varejo e logística. Um relatório da RationalFX aponta 45.363 empregos em tecnologia cortados globalmente desde janeiro, dos quais cerca de um quinto está diretamente ligado à adoção de inteligência artificial e à automação. A reportagem destaca ainda que reestruturações corporativas e pressões econômicas também pesam nas decisões das empresas.",
+      "url": "https://exame.com/invest/mercados/mais-de-30-empresas-fizeram-demissoes-este-ano-a-ia-nao-e-o-unico-motivo/"
+    },
+    {
+      "source": "TechTudo",
+      "region": "BR",
+      "cats": ["Dados", "Tecnologia"],
+      "title": "Novas regras do Pix ampliam para 80 dias prazo de contestação contra golpes",
+      "summary": "O Banco Central alterou as regras de segurança do Pix, ampliando de 30 para 80 dias o prazo para contestar uma devolução feita pelo Mecanismo Especial de Devolução (MED). A mudança, em vigor desde 1º de setembro, mira um golpe em que criminosos pedem a devolução de um Pix recebido e depois acionam o MED alegando fraude no pagamento original. A medida busca proteger principalmente lojistas e pequenos comerciantes desse tipo de fraude.",
+      "url": "https://www.techtudo.com.br/noticias/2026/08/regras-do-pix-mudam-para-reforcar-seguranca-entenda-edapps.ghtml"
+    },
+    {
+      "source": "Canaltech",
+      "region": "GL",
+      "cats": ["Tecnologia"],
+      "title": "Apple confirma evento em 9 de setembro e deve apresentar primeiro iPhone dobrável",
+      "summary": "A Apple confirmou um evento para 9 de setembro no Steve Jobs Theater, quando deve apresentar o iPhone 18 Pro, o iPhone 18 Pro Max e seu primeiro iPhone dobrável. Segundo o Canaltech, o novo dispositivo teria duas telas, uma interna de 19,8 cm que abre como um livro e outra externa de 13,5 cm. O evento marca também a primeira grande apresentação da empresa sob o novo CEO, John Ternus, que assumiu o cargo em 1º de setembro no lugar de Tim Cook.",
+      "url": "https://canaltech.com.br/smartphone/apple-confirma-quando-vai-lancar-o-iphone-18-pro/"
+    },
+    {
+      "source": "Canaltech",
+      "region": "BR",
+      "cats": ["Mercado de Trabalho", "IA"],
+      "title": "Nubank abre 50 vagas de estágio com foco em inteligência artificial",
+      "summary": "O Nubank abriu um programa de estágio com 50 vagas voltadas a inteligência artificial, aberto a estudantes de qualquer curso superior no Brasil com previsão de formatura entre julho de 2028 e julho de 2029. Segundo o Canaltech, a fintech já usa IA para elevar em quase 90% sua capacidade de produção de código, e cerca de 5% da força de trabalho da empresa atua em funções ligadas à tecnologia. O Nubank aparece entre os líderes de adoção de IA entre bancos da América Latina, segundo o Evident AI Index.",
+      "url": "https://canaltech.com.br/mercado/nubank-abre-50-vagas-de-estagio-com-foco-em-inteligencia-artificial/"
+    },
+    {
+      "source": "Crunchbase News",
+      "region": "GL",
+      "cats": ["Startups"],
+      "title": "Félix capta US$ 200 milhões em Série C para expandir remessas via WhatsApp",
+      "summary": "A fintech Félix, de Miami, levantou US$ 200 milhões em uma rodada Série C liderada por Andreessen Horowitz e General Catalyst, sendo US$ 87 milhões em ações e US$ 113 milhões em dívida. A empresa, que oferece remessas, empréstimos e poupança para imigrantes latinos via WhatsApp, já havia captado quase US$ 300 milhões desde a fundação em 2020 e deve usar o novo aporte para expandir sua atuação na América Latina. Segundo a Crunchbase News, a rodada eleva a Félix ao status de unicórnio.",
+      "url": "https://news.crunchbase.com/venture/fintech-whatsapp-remittance-startup-felix-raises-200m-a16z-general-catalyst/"
+    },
+    {
+      "source": "PRNewswire",
+      "region": "GL",
+      "cats": ["Dados", "IA"],
+      "title": "Gridsight capta US$ 26 milhões para plataforma de IA que mapeia capacidade da rede elétrica",
+      "summary": "A startup australiana Gridsight levantou US$ 26 milhões em uma rodada Série B liderada pela Insight Partners para acelerar sua expansão nos Estados Unidos. A empresa usa modelos de IA e tecnologia de gêmeo digital para cruzar dados de redes elétricas com leituras de medidores inteligentes e identificar onde há capacidade ociosa, que segundo a startup pode chegar a três quartos da capacidade total em algumas regiões. Entre os clientes da Gridsight nos EUA estão a Xcel Energy e a United Illuminating, subsidiária da Avangrid.",
+      "url": "https://www.prnewswire.com/news-releases/gridsight-raises-26m-series-b-to-unlock-electric-grid-capacity-and-affordability-302866161.html"
+    }
+  ]
+}
