@@ -1,0 +1,85 @@
+{
+  "date": "2026-09-03",
+  "items": [
+    {
+      "source": "Forbes Brasil",
+      "region": "BR",
+      "cats": ["Mercado de Trabalho", "IA"],
+      "title": "IA vira 'colega de trabalho' e pesa contra jovens em vagas de entrada",
+      "summary": "Reportagem da Forbes Brasil discute como a inteligência artificial vem se incorporando ao dia a dia corporativo e cita dados da FGV Ibre segundo os quais jovens de 18 a 29 anos em ocupações mais expostas à tecnologia têm 5% menos chance de conseguir emprego, com renda quase 7% menor. Ainda assim, o economista Carl Benedikt Frey, da Universidade de Oxford, avalia que vagas de entrada não devem desaparecer, já que as empresas continuam precisando formar seus futuros líderes.",
+      "url": "https://forbes.com.br/carreira/2026/09/a-ia-e-o-seu-novo-colega-de-trabalho/"
+    },
+    {
+      "source": "Bloomberg",
+      "region": "GL",
+      "cats": ["Mercado de Trabalho", "Tecnologia"],
+      "title": "Uber corta 3.300 vagas para redirecionar investimento a robotáxis",
+      "summary": "A Uber demitiu 3.300 funcionários, cerca de 10% do quadro corporativo, no maior corte de pessoal da empresa desde a pandemia. O CEO Dara Khosrowshahi disse que a reestruturação reduz camadas de gestão para concentrar recursos em robotáxis, entrega e transporte por aplicativo, com plano de investir mais de US$ 10 bilhões nessa frente nos próximos anos.",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-02/uber-to-cut-3-300-jobs-in-company-overhaul-to-reduce-management-layers"
+    },
+    {
+      "source": "Bloomberg",
+      "region": "GL",
+      "cats": ["Dados", "Tecnologia"],
+      "title": "PwC projeta US$ 31,6 trilhões em gastos com data centers até 2050",
+      "summary": "Um relatório da PwC estima investimento acumulado de US$ 31,6 trilhões em data centers no mundo até 2050, impulsionado pela demanda de IA, com o gasto anual saltando de cerca de US$ 800 bilhões neste ano para US$ 1,8 trilhão em 2050. Os Estados Unidos devem concentrar quase metade do total (US$ 15,1 trilhões), seguidos por Ásia-Pacífico e Europa.",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-02/data-center-spending-to-reach-31-6-trillion-by-2050-on-ai-boom"
+    },
+    {
+      "source": "EU-Startups",
+      "region": "GL",
+      "cats": ["Startups"],
+      "title": "HyImpulse capta mais de € 50 milhões para foguetes europeus",
+      "summary": "A alemã HyImpulse ampliou sua rodada Série A em mais de € 50 milhões, com liderança da JOIN Capital e da Ace Capital Partners, elevando o total captado na rodada a mais de € 65 milhões. O aporte deve financiar o segundo lançamento do foguete suborbital SR75 e o voo inaugural do veículo orbital SL1, ainda em 2026.",
+      "url": "https://www.eu-startups.com/2026/09/german-spacetech-hyimpulse-secures-over-e50-million-to-accelerate-europes-sovereign-launch-capabilities"
+    },
+    {
+      "source": "Google",
+      "region": "GL",
+      "cats": ["Tecnologia", "IA"],
+      "title": "Android ganha recurso do Gemini para lembrar onde objetos foram guardados",
+      "summary": "O pacote de atualizações de setembro do Android trouxe um recurso que permite ao Gemini memorizar onde o usuário guardou itens sem etiqueta de rastreamento, como chaves reservas ou passaporte. As informações ficam salvas no Google Find Hub e podem ser consultadas depois por texto ou foto, exigindo Android 16 ou superior.",
+      "url": "https://blog.google/products-and-platforms/platforms/android/Android-Drop-September-2026/"
+    },
+    {
+      "source": "CNN Brasil",
+      "region": "BR",
+      "cats": ["Startups"],
+      "title": "Fintech Bull capta R$ 20 milhões para plataforma de crédito com IA",
+      "summary": "A Bull, plataforma de crédito como serviço, captou R$ 20 milhões em rodada seed liderada pelos fundos Maya e Caravela, com participação da Canary, que já havia liderado o pré-seed da empresa um ano antes. Os recursos serão direcionados a infraestrutura de dados, cibersegurança e modelos de IA para decisão de crédito.",
+      "url": "https://www.cnnbrasil.com.br/economia/money/negocios/bull-capta-r-20-milhoes-para-investir-em-plataforma-de-credito-e-ia/"
+    },
+    {
+      "source": "Olhar Digital",
+      "region": "BR",
+      "cats": ["Tecnologia"],
+      "title": "PL dos mercados digitais pode mudar regras para big techs no Brasil",
+      "summary": "O Projeto de Lei 4.675/2025, que cria regras de concorrência para mercados digitais no Brasil, está pronto para votação no plenário da Câmara após parecer do relator. O texto cria a categoria de 'agentes econômicos de relevância sistêmica' e uma nova superintendência dentro do Cade para fiscalizar empresas como Google, Meta e Amazon.",
+      "url": "https://olhardigital.com.br/2026/09/01/pro/entenda-o-que-pode-mudar-para-google-meta-e-outras-big-techs-com-o-pl-dos-mercados-digitais"
+    },
+    {
+      "source": "Nvidia",
+      "region": "GL",
+      "cats": ["IA", "Tecnologia"],
+      "title": "Nvidia e CrowdStrike lançam sistema agêntico de cibersegurança",
+      "summary": "Durante a conferência Fal.Con 2026, Nvidia e CrowdStrike anunciaram o SafeMind, sistema de cibersegurança agêntica que combina um modelo ofensivo, para encontrar caminhos de ataque, com um modelo defensivo que os neutraliza, operando nativamente na plataforma CrowdStrike Falcon. As empresas afirmam que ataques habilitados por IA cresceram 89% no último ano, o que motivou a criação de uma defesa automatizada em velocidade de máquina.",
+      "url": "https://blogs.nvidia.com/blog/nvidia-crowdstrike-fal-con-2026/"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "GL",
+      "cats": ["IA"],
+      "title": "Modelo Astra, da OpenAI, encontra sozinho falhas de segurança inéditas",
+      "summary": "O modelo Astra, ainda em desenvolvimento pela OpenAI, identificou e explorou duas vulnerabilidades de dia zero durante testes internos, tornando-se o primeiro modelo a ultrapassar o limite 'crítico' de risco cibernético definido pela própria empresa. A OpenAI decidiu restringir o acesso aos recursos ofensivos mais avançados do modelo, liberando-os inicialmente a um grupo seleto de testadores voltado a segurança defensiva.",
+      "url": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/"
+    },
+    {
+      "source": "Anthropic",
+      "region": "GL",
+      "cats": ["IA"],
+      "title": "Anthropic lança Claude Fable 5.1 e Mythos 5.1 com foco em segurança",
+      "summary": "A Anthropic lançou os modelos Claude Fable 5.1 e Mythos 5.1, que reduzem em cerca de 60% as interrupções causadas por salvaguardas de cibersegurança em relação à geração anterior. Os novos modelos podem ajudar a identificar vulnerabilidades de software para fins defensivos, mas continuam impedidos de gerar exploits, e passaram a contar com proteções contra técnicas de extração de capacidades por terceiros.",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+    }
+  ]
+}
