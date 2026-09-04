@@ -1,0 +1,69 @@
+{
+  "date": "2026-09-04",
+  "items": [
+    {
+      "source": "TechCrunch",
+      "region": "GL",
+      "cats": ["IA", "Tecnologia"],
+      "title": "ChatGPT Health se integra ao Epic para dar acesso a prontuários médicos",
+      "summary": "A OpenAI conectou o ChatGPT Health ao Epic, sistema de prontuários eletrônicos usado por mais de 325 milhões de pacientes, permitindo que médicos consultem notas, exames e medicações sem sair do chat. O acesso é somente leitura, e a integração inclui também um plugin que busca dados públicos em fontes como ClinicalTrials.gov e PubMed.",
+      "url": "https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "GL",
+      "cats": ["Startups", "IA"],
+      "title": "Startup AIR capta US$ 50 milhões para fiscalizar segurança de agentes de IA",
+      "summary": "A AIR, fundada por veteranos da unidade de inteligência israelense 8200, levantou US$ 50 milhões em duas rodadas seed lideradas por Sequoia Capital e Greenoaks para lançar uma plataforma que monitora e valida continuamente as habilidades e complementos usados por agentes de IA dentro das empresas. A startup também oferece um marketplace de addons já verificados, mirando a nova cadeia de suprimentos de software criada por esses agentes.",
+      "url": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "GL",
+      "cats": ["Tecnologia"],
+      "title": "Justiça dos EUA não obriga Google a vender negócio de publicidade",
+      "summary": "A juíza Leonie Brinkema decidiu que o Google não precisará se desfazer de sua unidade de publicidade digital (AdX e DFP), mesmo após a empresa ter sido considerada, em abril, detentora de monopólio ilegal no setor. Em vez de um desmembramento, o Google terá que ajustar práticas de negócio para favorecer a concorrência, embora a decisão não tenha detalhado como isso deve ocorrer.",
+      "url": "https://techcrunch.com/2026/09/02/google-spared-from-ad-business-breakup-but-judge-orders-changes-to-how-it-operates/"
+    },
+    {
+      "source": "Bloomberg",
+      "region": "GL",
+      "cats": ["IA"],
+      "title": "G20 endossa proposta dos EUA de regulação leve para a inteligência artificial",
+      "summary": "Países do G20 concordaram, em reunião de tecnologia na Carolina do Norte, com uma abordagem de regulação mínima para IA defendida pelos Estados Unidos, batizada de 'Princípios da Carolina'. A proposta prioriza investimento e concentra novas regras apenas em riscos inéditos, com apoio de executivos como Jensen Huang, Sam Altman e Elon Musk, em meio à disputa com a China pela liderança em IA.",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-02/us-strikes-light-touch-ai-regulation-accord-with-g20-members"
+    },
+    {
+      "source": "Axios",
+      "region": "GL",
+      "cats": ["Tecnologia", "IA"],
+      "title": "ChatGPT, Claude e Grok ficam fora do ar ao mesmo tempo",
+      "summary": "Um erro de roteamento na quinta-feira derrubou simultaneamente ChatGPT, Claude e Grok para milhares de usuários, com relatos também de instabilidade no Microsoft Azure, que hospeda os três serviços. Os sistemas voltaram ao normal cerca de cinco horas depois do início do problema.",
+      "url": "https://www.axios.com/2026/09/03/chatgpt-claude-grok-outages"
+    },
+    {
+      "source": "CNBC",
+      "region": "GL",
+      "cats": ["IA", "Startups"],
+      "title": "Nvidia fecha compra da Hugging Face por quase US$ 13 bilhões",
+      "summary": "A Nvidia assinou acordo definitivo para adquirir a Hugging Face, plataforma de código aberto para modelos e datasets de IA, em transação avaliada em cerca de US$ 13 bilhões — sendo aproximadamente US$ 11,9 bilhões pagos aos acionistas e até US$ 1 bilhão em retenção para funcionários. É a segunda maior aquisição da história da Nvidia, e o CEO Jensen Huang prometeu manter a plataforma aberta para desenvolvedores.",
+      "url": "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html"
+    },
+    {
+      "source": "Senado dos EUA (Bernie Sanders)",
+      "region": "GL",
+      "cats": ["IA"],
+      "title": "Sanders e Casar propõem banir 'superinteligência artificial' nos EUA",
+      "summary": "O senador Bernie Sanders e o deputado Greg Casar anunciaram um projeto de lei que proíbe permanentemente o desenvolvimento de sistemas de superinteligência artificial nos EUA e pausa temporariamente o avanço de modelos de fronteira até que um órgão regulador federal defina regras de segurança. A proposta prevê pena de até 20 anos de prisão para infratores individuais, citando incidentes recentes de agentes de IA que agiram fora de controle como motivação.",
+      "url": "https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-ban-artificial-superintelligence-and-temporarily-pause-advanced-ai-development/"
+    },
+    {
+      "source": "InfoMoney",
+      "region": "BR",
+      "cats": ["Startups", "IA"],
+      "title": "Wonderful capta US$ 550 milhões e mira expansão no Brasil",
+      "summary": "A Wonderful, startup israelense que desenvolve um 'sistema operacional de IA' para grandes empresas, levantou US$ 550 milhões em rodada Série C liderada pela Insight Partners, com participação da Salesforce, atingindo avaliação de US$ 5 bilhões. A companhia começou a estruturar sua presença no Brasil em maio e planeja chegar a 100 funcionários no país, com foco em setores como serviços financeiros, telecomunicações e seguros.",
+      "url": "https://www.infomoney.com.br/business/startups-poucos-meses-apos-chegar-ao-brasil-wonderful-faz-serie-c-de-us-550m/"
+    }
+  ]
+}
