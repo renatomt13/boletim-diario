@@ -1,0 +1,77 @@
+{
+  "date": "2026-09-06",
+  "items": [
+    {
+      "source": "Anthropic",
+      "region": "GL",
+      "cats": ["IA"],
+      "title": "Claude formaliza prova do Último Teorema de Fermat em tempo recorde",
+      "summary": "A Anthropic anunciou que o Claude produziu, em cerca de 11 dias e de forma majoritariamente autônoma, a primeira prova completa e verificada por computador do Último Teorema de Fermat na linguagem Lean. O projeto usou a plataforma colaborativa Prove2Me e um sistema multiagente baseado no Claude Code, resultando em uma formalização com 13 milhões de linhas e cerca de 29.500 teoremas intermediários — trabalho que especialistas estimavam levar anos.",
+      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem"
+    },
+    {
+      "source": "Canaltech",
+      "region": "GL",
+      "cats": ["IA"],
+      "title": "OpenAI lança GPT-6 Astra, seu modelo mais avançado e também o mais crítico em cibersegurança",
+      "summary": "A OpenAI lançou o GPT-6 Astra, classificado como o primeiro modelo da empresa em nível \"crítico\" de risco para cibersegurança, com acesso inicial restrito a clientes corporativos do programa Daybreak antes de chegar aos planos pagos do ChatGPT e à API. A empresa descreveu o lançamento como um salto geracional em engenharia de software, ciência e uso autônomo de computador.",
+      "url": "https://canaltech.com.br/inteligencia-artificial/openai-lanca-gpt-6-astra-seu-modelo-mais-inteligente-e-tambem-mais-critico/"
+    },
+    {
+      "source": "Canaltech",
+      "region": "GL",
+      "cats": ["Tecnologia"],
+      "title": "Google Tradutor ganha tradução ao vivo em segundo plano e áudio pelo fone no iPhone",
+      "summary": "O Google atualizou o Tradutor para manter a tradução em tempo real ativa em segundo plano no Android, mesmo com a tela bloqueada ou outro app aberto, com o controle exibido direto na notificação do sistema. No iOS, o app passou a oferecer áudio pelo auricular do aparelho, permitindo ouvir a tradução encostando o celular no ouvido, sem precisar de fones.",
+      "url": "https://canaltech.com.br/apps/ia-do-google-tradutor-vai-traduzir-conversas-em-tempo-real-no-seu-fone-de-ouvido/"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "GL",
+      "cats": ["IA", "Dados"],
+      "title": "Meta oferece desconto de até 95% para quem compartilhar dados de uso de sua IA",
+      "summary": "A Meta lançou o modelo Muse Spark 1.3 com um plano de preços \"contribuidor\" que chega a custar 21 vezes menos que o padrão para desenvolvedores dispostos a ceder prompts, respostas e padrões de uso ao treinamento de futuros modelos. A prática reacende o debate sobre como empresas de IA usam dados de clientes em troca de preços mais baixos.",
+      "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/"
+    },
+    {
+      "source": "Google",
+      "region": "GL",
+      "cats": ["IA", "Dados"],
+      "title": "Google DeepMind lança WeatherNext 3, modelo de previsão do tempo por hora",
+      "summary": "O Google DeepMind apresentou o WeatherNext 3, seu modelo de IA mais avançado para previsão global do tempo, que usa dados de satélite em tempo real para gerar novas previsões a cada hora, com resolução de até 5 km para temperatura e umidade. A tecnologia já começou a alimentar a Busca, o Gemini, o Google Maps e o Google Earth Engine, prometendo previsões de chuva até 50% mais precisas.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/"
+    },
+    {
+      "source": "Google",
+      "region": "GL",
+      "cats": ["Tecnologia", "IA"],
+      "title": "Google lança recursos de voz com IA no Gmail, Docs e Keep",
+      "summary": "O Google começou a liberar o Gmail Live, o Docs Live e o Keep Live, recursos que usam o Gemini para permitir conversas por voz com a caixa de entrada, criação de rascunhos de documentos e transcrição de anotações faladas. As novidades ficam restritas a assinantes dos planos pagos do Google AI (Plus, Pro ou Ultra), com o Docs Live limitado aos planos Pro e Ultra.",
+      "url": "https://blog.google/products-and-platforms/products/workspace/voice-features-gmail-docs-keep/"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "GL",
+      "cats": ["Dados"],
+      "title": "Hackers parecem ter invadido grande serviço de verificação de identidade nos EUA",
+      "summary": "Pesquisadores de segurança identificaram um vazamento massivo atribuído à IDScan.net, com um grupo de hackers alegando ter roubado mais de 150 milhões de carteiras de motorista, cartões de identidade e documentos de viagem ao longo de mais de um ano de acesso não autorizado. O caso já motivou investigação do FBI após a descoberta de que dados de autoridades do governo dos EUA também foram expostos.",
+      "url": "https://techcrunch.com/2026/09/02/it-sure-looks-like-hackers-breached-a-major-id-card-verification-service/"
+    },
+    {
+      "source": "Seeking Alpha",
+      "region": "GL",
+      "cats": ["Tecnologia", "Dados"],
+      "title": "Broadcom eleva previsão e projeta US$ 230 bi em receita com chips de IA até 2028",
+      "summary": "A Broadcom elevou sua projeção de receita com semicondutores de IA para US$ 58 bilhões em 2026, US$ 115 bilhões em 2027 e US$ 230 bilhões em 2028, impulsionada pela demanda de clientes como Anthropic, OpenAI e Meta. O CEO Hock Tan afirmou ter visibilidade sobre a construção de mais de 10 gigawatts de infraestrutura de IA só para a Anthropic até 2028.",
+      "url": "https://seekingalpha.com/news/4639799-broadcom-forecasts-58b-fiscal-2026-ai-revenue-and-outlines-115b-in-2027-230b-in-2028"
+    },
+    {
+      "source": "OpenAI",
+      "region": "GL",
+      "cats": ["Startups", "Tecnologia"],
+      "title": "Publicidade no ChatGPT atinge US$ 1 bilhão em receita anualizada em 200 dias",
+      "summary": "A OpenAI anunciou que seu negócio de anúncios dentro do ChatGPT atingiu uma taxa anualizada de receita de US$ 1 bilhão em menos de 200 dias após o início dos testes nos Estados Unidos, em fevereiro. A empresa agora expande a compra de anúncios via Ads Manager para Índia, Europa, Oriente Médio e Norte da África, reforçando a diversificação de receita antes de uma esperada oferta pública inicial.",
+      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads/"
+    }
+  ]
+}
