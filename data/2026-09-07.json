@@ -1,0 +1,85 @@
+{
+  "date": "2026-09-07",
+  "items": [
+    {
+      "source": "Bloomberg",
+      "region": "GL",
+      "cats": ["Tecnologia", "Dados"],
+      "title": "CEO da IQE alerta para risco de fornecimento de chips por controles da China",
+      "summary": "A CEO da fabricante britânica de semicondutores IQE, Jutta Meier, alertou que os controles de exportação chineses sobre fosfeto de índio — material usado em data centers de IA e redes de fibra óptica — se tornaram um risco central para a indústria de chips. O preço do wafer de seis polegadas do material subiu cerca de 250% desde as restrições, perto de US$ 5 mil, com a China respondendo por cerca de 70% da produção global de índio.",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-07/iqe-ceo-warns-of-emerging-china-supply-risk-for-chip-industry"
+    },
+    {
+      "source": "Digitimes",
+      "region": "GL",
+      "cats": ["Tecnologia", "IA"],
+      "title": "Foxconn tem receita recorde em agosto com demanda por servidores de IA",
+      "summary": "A Foxconn (Hon Hai), maior fabricante de servidores de IA para a Nvidia, registrou receita de NT$ 921,8 bilhões (cerca de US$ 29,1 bilhões) em agosto, alta de 52% ante o ano anterior. A empresa projeta que o terceiro trimestre supere as expectativas do mercado, puxada pela expansão contínua de investimentos em data centers por provedores de nuvem.",
+      "url": "https://www.digitimes.com/news/a20260907PD200/foxconn-electronics-revenue-demand-sales.html"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "GL",
+      "cats": ["Startups", "Tecnologia"],
+      "title": "Atoms, de Travis Kalanick, pode entrar no mercado de robotáxis",
+      "summary": "A Atoms, startup de robótica do cofundador da Uber Travis Kalanick que levantou US$ 1,7 bilhão em rodada liderada pela a16z neste verão americano, se prepara para contratações e aquisições que podem torná-la relevante em veículos autônomos. A empresa já conversou com a própria Uber sobre uso de sua tecnologia de robotáxi e comprou a startup de mineração autônoma Pronto, do cofundador da Waymo Anthony Levandowski.",
+      "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/"
+    },
+    {
+      "source": "Exame",
+      "region": "BR",
+      "cats": ["Tecnologia"],
+      "title": "Embraer e SPX fundem negócios de cibersegurança em empresa de R$ 700 milhões",
+      "summary": "A Vision Cybersecurity, controlada pela gestora SPX, e a Tempest Security Intelligence, que tem a Embraer como acionista, anunciaram fusão por troca de ações que cria um grupo com faturamento anual acima de R$ 700 milhões, cerca de 900 profissionais e mais de 600 clientes corporativos. André Fleury assume como CEO do grupo combinado.",
+      "url": "https://exame.com/negocios/embraer-aposta-em-fusao-para-criar-gigante-brasileira-de-ciberseguranca-de-r-700-milhoes/"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "GL",
+      "cats": ["Startups", "Tecnologia"],
+      "title": "Crusoe capta mais de US$ 3 bilhões e triplica valor para US$ 30 bilhões",
+      "summary": "A provedora de nuvem e data centers de IA Crusoe, que atende OpenAI, Microsoft e Meta, fechou rodada acima de US$ 3 bilhões liderada por Atreides Management e Valor Equity Partners, com participação da Mubadala Capital. O novo valuation de US$ 30 bilhões triplica os US$ 10 bilhões de outubro passado, dias depois de a empresa fechar contrato de US$ 13 bilhões para fornecer GPUs à gestora Jane Street.",
+      "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/"
+    },
+    {
+      "source": "Google Blog",
+      "region": "GL",
+      "cats": ["IA"],
+      "title": "Google lança Gemini 3.8 Flash e variante voltada à cibersegurança",
+      "summary": "O Google apresentou o Gemini 3.8 Flash, seu modelo de uso geral com ganhos em engenharia de software e raciocínio em várias etapas, e o Gemini 3.8 Flash Cyber, voltado à detecção de vulnerabilidades e aplicação automática de patches, disponível a governos e operadores de infraestrutura crítica pelo novo Programa Fairwind. É o terceiro lançamento da linha Flash em seis semanas; a equipe de segurança do Chrome apontou que o Flash Cyber produziu 2,6 vezes mais patches corretos que modelos comerciais maiores.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+    },
+    {
+      "source": "Tecnoblog",
+      "region": "BR",
+      "cats": ["Tecnologia"],
+      "title": "Nubank registra instabilidade no Pix e no aplicativo",
+      "summary": "Clientes do Nubank relataram falhas para pagar e transferir via Pix na noite de sexta-feira (4/9), com o Downdetector registrando cerca de mil reclamações. O banco confirmou a instabilidade e disse estar trabalhando para normalizar os serviços, sem dar prazo; a falha não atingiu todos os usuários da mesma forma.",
+      "url": "https://tecnoblog.net/noticias/nubank-fora-do-ar-aplicativo-tem-instabilidade-nesta-sexta-4/"
+    },
+    {
+      "source": "AlphaSignal",
+      "region": "GL",
+      "cats": ["IA", "Startups"],
+      "title": "xAI abre Grok Bot para empresas com controles de auditoria e teste gratuito",
+      "summary": "A xAI lançou versão empresarial do Grok Bot, agentes de IA autônomos que operam continuamente em tarefas como vendas, recrutamento e engenharia, agora com controles de acesso, rede e auditoria para gestão em escala. Clientes de Grok Enterprise e Cursor Enterprise têm acesso gratuito por duas semanas; a xAI diz que milhares de organizações, incluindo Legora e Supermicro, já adotaram o serviço desde o beta lançado em agosto.",
+      "url": "https://alphasignal.ai/news/xai-pushes-grok-bot-into-enterprise-with-audit-controls-and-free-trials"
+    },
+    {
+      "source": "TecMundo",
+      "region": "BR",
+      "cats": ["Mercado de Trabalho"],
+      "title": "Curadoria reúne mais de 100 vagas de home office em tecnologia no Brasil",
+      "summary": "Uma nova seleção do TecMundo em parceria com a Remotar reuniu, em 6 de setembro, mais de 100 vagas 100% remotas em tecnologia, design e marketing, incluindo posições como analista de engenharia, especialista em RevOps e supervisor de governança de TI. A curadoria reforça a consolidação do trabalho remoto como parte permanente do mercado brasileiro, hoje liderado por vagas do setor financeiro digital.",
+      "url": "https://www.tecmundo.com.br/mercado/415778-home-office-110-vagas-para-trabalho-remoto-0609.htm"
+    },
+    {
+      "source": "IBM",
+      "region": "GL",
+      "cats": ["Tecnologia", "Dados"],
+      "title": "IBM lança processador quântico Nighthawk r2 com 25 vezes mais velocidade de circuitos",
+      "summary": "A IBM anunciou a disponibilidade do Nighthawk r2, processador quântico de 120 qubits programáveis capaz de executar mais de 100 mil circuitos por segundo — 25 vezes a capacidade do Heron anterior — graças a um reset de qubit mais rápido. A empresa já demonstrou estimativas de observáveis precisas em circuitos com mais de 7.500 portas lógicas, um marco do roteiro quântico da IBM para 2026.",
+      "url": "https://www.ibm.com/quantum/blog/nighthawk-r2"
+    }
+  ]
+}
