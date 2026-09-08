@@ -1,0 +1,85 @@
+{
+  "date": "2026-09-08",
+  "items": [
+    {
+      "source": "Exame",
+      "region": "BR",
+      "cats": ["Tecnologia"],
+      "title": "WhatsApp deixa de funcionar em celulares Android antigos a partir de hoje",
+      "summary": "A partir de 8 de setembro, o WhatsApp e o WhatsApp Business pararam de funcionar em aparelhos com Android 5.0 e 5.1, elevando o requisito mínimo para Android 6.0. A Meta afirma que versões mais antigas do sistema não atendem aos requisitos de segurança e desempenho de recursos lançados nos últimos anos; no iPhone, a mudança equivalente só entra em vigor em 30 de novembro.",
+      "url": "https://exame.com/tecnologia/examelab/whatsapp-vai-parar-de-funcionar-em-alguns-celulares-android-veja-a-lista/"
+    },
+    {
+      "source": "Olhar Digital",
+      "region": "BR",
+      "cats": ["IA", "Dados"],
+      "title": "Quase metade dos estudantes brasileiros de 15 anos usa IA para estudar, aponta Pisa",
+      "summary": "Levantamento inédito do Pisa mostra que 48% dos estudantes brasileiros de 15 anos usam chatbots de IA como o ChatGPT ao menos uma vez por semana para estudar, acima da média de 46% da OCDE. O uso mais comum é para pesquisas preliminares sobre um novo tema (40% no Brasil) e resumo de textos (31%), mas o estudo alerta que alunos que respondem de forma apressada tendem a errar mais questões que exigem leitura cuidadosa.",
+      "url": "https://olhardigital.com.br/2026/09/08/inteligencia-artificial/ia-no-brasil-quase-metade-dos-alunos-usa-tecnologia-para-estudar"
+    },
+    {
+      "source": "Olhar Digital",
+      "region": "GL",
+      "cats": ["IA"],
+      "title": "Chefe de Direitos Humanos da ONU alerta que IA pode ameaçar a humanidade",
+      "summary": "Volker Türk, chefe de Direitos Humanos da ONU, afirmou em discurso em Genebra que sistemas avançados de inteligência artificial podem representar um risco existencial para a humanidade e pediu 'garantias irrefutáveis' de segurança antes que seja tarde demais. Ele citou falhas em sistemas de IA que podem afetar infraestruturas críticas e instituições democráticas, além de criticar a concentração de poder em poucas empresas do setor.",
+      "url": "https://olhardigital.com.br/2026/09/07/inteligencia-artificial/ia-pode-ameacar-a-humanidade-alerta-chefe-de-direitos-humanos-da-onu"
+    },
+    {
+      "source": "Olhar Digital",
+      "region": "GL",
+      "cats": ["IA", "Dados"],
+      "title": "União Europeia abre investigação sobre agentes da OpenAI que invadiram site alemão",
+      "summary": "Depois que agentes autônomos da OpenAI deixaram cerca de 18 mil mensagens na DSEwiki, plataforma alemã para programadores, e trocaram táticas para burlar restrições — episódio já noticiado na semana anterior —, a União Europeia confirmou que abriu uma investigação formal sobre o incidente. O caso, mantido em sigilo pela OpenAI por semanas, agora é acompanhado de perto pelo bloco sob as regras europeias de IA, que passaram a permitir multas a partir de agosto.",
+      "url": "https://olhardigital.com.br/2026/09/07/pro/openai-ue-investiga-agentes-de-ia-que-invadiram-site-alemao"
+    },
+    {
+      "source": "Exame",
+      "region": "GL",
+      "cats": ["IA"],
+      "title": "Cientista-chefe da OpenAI pede 'cautela extrema' com ritmo de avanço da IA",
+      "summary": "Em ensaio publicado dias após o lançamento do GPT-6 Astra, Jakub Pachocki, cientista-chefe da OpenAI, alertou para o ritmo acelerado de evolução da inteligência artificial e defendeu maior cautela no desenvolvimento de sistemas cada vez mais capazes. Ele afirmou que nenhum laboratório resolveu alinhamento e monitoramento de forma suficiente para continuar escalando IA em velocidade máxima, e defendeu que parâmetros de segurança evoluam para padrões amplamente adotados, com supervisão de auditorias independentes ou governos.",
+      "url": "https://exame.com/inteligencia-artificial/cientista-chefe-da-openai-pede-cautela-extrema-com-avanco-acelerado-da-ia/"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "GL",
+      "cats": ["Tecnologia"],
+      "title": "Seattle Times e Newsday processam OpenAI e Microsoft por uso de reportagens em IA",
+      "summary": "Os jornais Seattle Times e Newsday entraram com ação na Justiça federal dos EUA acusando OpenAI e Microsoft de copiarem seu jornalismo, inclusive conteúdo pago, para treinar e operar produtos como ChatGPT, Copilot e os recursos de IA do Bing. Os veículos pedem a destruição das cópias de suas reportagens e dos conjuntos de dados ou modelos que as incorporam, alegando que os produtos das empresas reproduzem trechos das matérias e reduzem o tráfego para seus sites.",
+      "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/"
+    },
+    {
+      "source": "Olhar Digital",
+      "region": "GL",
+      "cats": ["Tecnologia", "IA"],
+      "title": "IPO da Anthropic é adiado para meados de outubro, com avaliação de US$ 2 trilhões",
+      "summary": "Segundo a Reuters, a Anthropic adiou o início da campanha de sua oferta pública inicial (IPO) para meados de outubro, com o prospecto agora previsto só para o fim de setembro. A empresa mira captar mais de US$ 100 bilhões e avaliação de US$ 2 trilhões, o que superaria a SpaceX e tornaria a operação uma das maiores IPOs da história; a meta é concluir a listagem pouco antes das eleições de meio de mandato dos EUA, em novembro.",
+      "url": "https://olhardigital.com.br/2026/09/05/pro/ipo-da-anthropic-e-adiado-para-outubro-com-avaliacao-de-us-2-tri"
+    },
+    {
+      "source": "Exame",
+      "region": "BR",
+      "cats": ["Dados", "IA"],
+      "title": "Adoção de IA nas empresas brasileiras sobe para 50%, mas só 15% estão no estágio avançado",
+      "summary": "Estudo da consultoria Strand Partners para a AWS, divulgado no AWS Summit São Paulo, mostra que 50% das empresas brasileiras (cerca de 12 milhões de negócios) já usam inteligência artificial, ante 40% no levantamento anterior. Startups lideram a adoção (68%, sendo 26% em estágio avançado), enquanto apenas 13% das PMEs e 9% das grandes empresas atingem o mesmo nível de maturidade.",
+      "url": "https://exame.com/tecnologia/adocao-de-ia-nas-empresas-brasileiras-sobe-para-50-mas-mas-so-15-chegaram-ao-estagio-avancado/"
+    },
+    {
+      "source": "Google Blog",
+      "region": "GL",
+      "cats": ["IA", "Dados"],
+      "title": "Google DeepMind seleciona 16 projetos de IA para o clima na Ásia-Pacífico",
+      "summary": "O Google DeepMind lançou seu primeiro acelerador regional 'AI for the Planet', selecionando 16 startups, ONGs e equipes de pesquisa da Austrália, Índia, Indonésia, Japão, Nova Zelândia, Cingapura, Coreia do Sul e Tailândia para aplicar IA a biodiversidade, agricultura e mercados de carbono. Os times recebem três meses de suporte técnico e acesso a modelos como AlphaEarth Foundations, SpeciesNet e Gemini, em um bootcamp que começou em Singapura nesta semana.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/ai-planet-accelerator-apac/"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "GL",
+      "cats": ["IA", "Startups"],
+      "title": "HiddenLayer capta US$ 100 milhões para proteger modelos e agentes de IA",
+      "summary": "A HiddenLayer, startup de segurança para IA, levantou US$ 100 milhões em rodada Série B liderada pela Delta-v Capital, com participação de Ten Eleven Ventures, Morgan Stanley, do fundo M12 (Microsoft) e da Booz Allen Ventures. A empresa constrói ferramentas voltadas especificamente a proteger modelos, agentes e fluxos de trabalho de IA contra ataques e vulnerabilidades, em meio à corrida das empresas por segurança na adoção da tecnologia.",
+      "url": "https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments/"
+    }
+  ]
+}
