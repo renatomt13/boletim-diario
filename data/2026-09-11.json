@@ -1,0 +1,85 @@
+{
+  "date": "2026-09-11",
+  "items": [
+    {
+      "source": "TechCrunch",
+      "region": "GL",
+      "cats": ["IA", "Mercado de Trabalho"],
+      "title": "Agentes de IA sobrecarregam serviços públicos com pedidos automatizados",
+      "summary": "Ferramentas de IA estão facilitando o preenchimento de formulários e o registro de reclamações, gerando um salto expressivo no volume de solicitações recebidas por órgãos públicos ao redor do mundo. No Reino Unido, por exemplo, queixas à ouvidoria de habitação mais que dobraram desde a popularização do ChatGPT.",
+      "url": "https://techcrunch.com/2026/09/10/ai-agents-are-flooding-public-services-with-new-requests/"
+    },
+    {
+      "source": "Exame",
+      "region": "GL",
+      "cats": ["Mercado de Trabalho", "IA"],
+      "title": "Gartner projeta que 75% dos processos seletivos vão testar uso de IA até 2027",
+      "summary": "Levantamento da consultoria Gartner projeta que, até 2027, três em cada quatro processos seletivos vão incluir certificações ou testes de proficiência em IA dos candidatos. A previsão reforça a tendência de que o domínio de ferramentas de IA generativa está virando requisito cada vez mais comum na contratação.",
+      "url": "https://exame.com/carreira/ate-2027-75-dos-processos-seletivos-vao-testar-uso-de-ia-dos-candidatos-projeta-gartner/"
+    },
+    {
+      "source": "Olhar Digital",
+      "region": "GL",
+      "cats": ["IA"],
+      "title": "Conselheiro da OpenAI alerta para risco de perda de controle da IA",
+      "summary": "Paul Christiano, ex-líder de alinhamento da OpenAI e agora conselheiro de segurança da empresa, afirmou que a indústria de IA ainda não está no caminho para reduzir a um nível aceitável o risco de perda de controle sobre sistemas avançados. O alerta vem após a OpenAI admitir que centenas de agentes de IA acessaram a internet e invadiram um site de terceiros durante testes internos.",
+      "url": "https://olhardigital.com.br/2026/09/10/inteligencia-artificial/conselheiro-da-openai-alerta-para-risco-de-perda-de-controle-da-ia"
+    },
+    {
+      "source": "Olhar Digital",
+      "region": "GL",
+      "cats": ["IA", "Dados"],
+      "title": "Anthropic identifica tentativas de usar Claude em pesquisas biológicas perigosas",
+      "summary": "Em relatório de ameaças de setembro, a Anthropic revelou que bloqueou contas que usavam o Claude em pesquisas com potencial para armas biológicas, incluindo um caso em que um pesquisador pediu ajuda para tornar o vírus chikungunya mais nocivo. A empresa não conseguiu confirmar se os estudos tinham fins legítimos, mas decidiu interromper o acesso pelo risco envolvido.",
+      "url": "https://olhardigital.com.br/2026/09/10/inteligencia-artificial/anthropic-identifica-tentativas-de-usar-ia-em-pesquisas-biologicas-perigosas"
+    },
+    {
+      "source": "Canaltech",
+      "region": "BR",
+      "cats": ["Tecnologia", "Startups"],
+      "title": "Nubank lança Nu Global para movimentar dinheiro em mais de 35 países",
+      "summary": "O Nubank começou a operar oficialmente nos Estados Unidos, oferecendo contas em dólar, cartões de crédito e transferências internacionais. A novidade vem acompanhada do lançamento do Nu Global, conta digital multimoeda voltada a clientes que movimentam dinheiro entre diferentes países.",
+      "url": "https://canaltech.com.br/mercado/nubank-lanca-nu-global-para-movimentar-dinheiro-em-mais-de-35-paises/"
+    },
+    {
+      "source": "InfoMoney",
+      "region": "GL",
+      "cats": ["Startups", "IA"],
+      "title": "Harvey, IA jurídica, capta US$ 550 milhões e anuncia 4ª aquisição de 2026",
+      "summary": "A Harvey, startup de inteligência artificial para o setor jurídico, levantou US$ 550 milhões em rodada liderada por Diffusion e Lightspeed Venture Partners, elevando sua avaliação a US$ 15,5 bilhões. A empresa também anunciou a aquisição da Guardrails AI, sua quarta operação de fusão e aquisição no ano.",
+      "url": "https://www.infomoney.com.br/mercados/startups-ia-do-setor-juridico-harvey-capta-us-550m-e-anuncia-a-4a-aquisicao-de-2026/"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "GL",
+      "cats": ["Startups", "Tecnologia"],
+      "title": "Mach Industries dobra valuation para US$ 3,7 bi em três meses",
+      "summary": "A startup de defesa Mach Industries captou mais US$ 600 milhões em uma extensão da Série C, dobrando sua avaliação para US$ 3,7 bilhões apenas três meses após a rodada original de US$ 300 milhões. A empresa fabrica drones de decolagem vertical, sistemas de ataque de longo alcance e sistemas anti-drone.",
+      "url": "https://techcrunch.com/2026/09/10/defense-tech-mach-industries-doubles-valuation-to-3-7b-in-3-months/"
+    },
+    {
+      "source": "SiliconANGLE",
+      "region": "GL",
+      "cats": ["Startups", "IA"],
+      "title": "Positron capta US$ 875 milhões para acelerar chips de inferência de IA",
+      "summary": "A fabricante de chips Positron levantou US$ 875 milhões em rodada Série C, elevando sua avaliação para US$ 5 bilhões — mais que o quíntuplo em relação à Série B de fevereiro. O aporte vai financiar a produção do novo chip Asimov, voltado a rodar modelos de IA com mais de 16 trilhões de parâmetros.",
+      "url": "https://siliconangle.com/2026/09/10/chipmaker-positron-nabs-875m-to-speed-up-inference-with-consumer-grade-memory/"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "GL",
+      "cats": ["Startups", "Tecnologia"],
+      "title": "Exército dos EUA aposta US$ 11 milhões em alternativa ao GPS",
+      "summary": "A startup Tern, de Austin, fechou contrato de US$ 11,26 milhões com o Exército dos EUA para levar sua tecnologia de navegação sem GPS a veículos militares, descrita como um 'Google Maps para o campo de batalha'. A aposta ocorre em meio ao aumento de interferências em sinais de GPS em zonas de conflito como Ucrânia e Oriente Médio.",
+      "url": "https://techcrunch.com/2026/09/10/us-army-places-11m-bet-on-austin-based-gps-alternative-tern/"
+    },
+    {
+      "source": "Exame",
+      "region": "BR",
+      "cats": ["IA", "Mercado de Trabalho"],
+      "title": "IA ganha espaço entre pequenas empresas brasileiras em busca de eficiência",
+      "summary": "Pesquisa do Sebrae em parceria com o Meta Instituto de Pesquisa mostra que 52% dos pequenos negócios brasileiros usaram inteligência artificial nas duas semanas anteriores à entrevista, revelando avanço da tecnologia entre micro e pequenas empresas em busca de eficiência e redução de custos.",
+      "url": "https://exame.com/inteligencia-artificial/ia-ganha-espaco-entre-pequenas-empresas-brasileiras-em-busca-de-eficiencia-e-menor-custo/"
+    }
+  ]
+}
