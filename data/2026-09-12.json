@@ -1,0 +1,69 @@
+{
+  "date": "2026-09-12",
+  "items": [
+    {
+      "source": "TechTudo",
+      "region": "BR",
+      "cats": ["Tecnologia"],
+      "title": "Pré-venda do iPhone 18 Pro começa no Brasil neste sábado",
+      "summary": "A pré-venda do iPhone 18 Pro e do iPhone 18 Pro Max começou neste sábado (12), às 9h, no Brasil, com chegada às lojas prevista para 18 de setembro. O modelo custa a partir de R$ 11.999 e chega a R$ 21.999 na versão de 2TB, trazendo o novo chip A20 Pro, o primeiro da Apple fabricado em processo de 2 nanômetros.",
+      "url": "https://www.techtudo.com.br/noticias/2026/09/iphone-18-pro-pre-venda-no-brasil-comeca-neste-sabado-12-veja-precos-edmobile.ghtml"
+    },
+    {
+      "source": "Olhar Digital",
+      "region": "GL",
+      "cats": ["IA"],
+      "title": "Sam Altman diz que OpenAI está aberta a desacelerar avanço da IA",
+      "summary": "Sam Altman disse a funcionários da OpenAI, em reunião geral, que a empresa está aberta a reduzir o ritmo de desenvolvimento de IA de ponta, buscando coordenar essa desaceleração com laboratórios concorrentes. A postura marca uma mudança notável para o executivo, que em 2023 havia rejeitado publicamente pedidos de pausa conjunta no setor, e surge após alertas internos de segurança.",
+      "url": "https://olhardigital.com.br/2026/09/11/inteligencia-artificial/sam-altman-considera-frear-avanco-da-openai-apos-falhas-em-testes"
+    },
+    {
+      "source": "DataCenterDynamics",
+      "region": "GL",
+      "cats": ["Tecnologia"],
+      "title": "Microsoft planeja triplicar capacidade de data centers até 2032",
+      "summary": "A Microsoft pretende ampliar sua capacidade global de data centers dos atuais 12 GW para mais de 38 GW até 2032, segundo reportagem da Bloomberg. A escassez de servidores já forçou a empresa a recusar clientes de nuvem e IA, e a fatia dedicada a chips de IA deve crescer de 2 GW para cerca de um terço da capacidade total planejada.",
+      "url": "https://www.datacenterdynamics.com/en/news/microsoft-targets-38gw-of-data-center-capacity-in-2032-report/"
+    },
+    {
+      "source": "SiliconANGLE",
+      "region": "GL",
+      "cats": ["Tecnologia", "Dados"],
+      "title": "Oracle registra backlog recorde de US$ 664 bilhões impulsionado pela IA",
+      "summary": "A Oracle reportou um backlog contratual recorde de US$ 664 bilhões em sua infraestrutura de nuvem, após fechar mais de US$ 30 bilhões em novos contratos de IA no trimestre. Quase metade desse total decorre de um único contrato de infraestrutura de nuvem firmado com a OpenAI.",
+      "url": "https://siliconangle.com/2026/09/10/oracles-stock-moves-higher-on-surging-cloud-infrastructure-revenue-growth/"
+    },
+    {
+      "source": "Tech Startups",
+      "region": "GL",
+      "cats": ["Tecnologia"],
+      "title": "Pentágono negocia empréstimo de US$ 5 bilhões para startup de infraestrutura de IA",
+      "summary": "Segundo o Wall Street Journal, o Pentágono negocia um empréstimo de cerca de US$ 5 bilhões à Fluidstack para reforçar a cadeia de suprimentos de componentes usados em data centers nos EUA, como transformadores e equipamentos elétricos. Seria o maior financiamento já concedido pelo Escritório de Capital Estratégico do Departamento de Defesa americano.",
+      "url": "https://techstartups.com/2026/09/11/pentagon-in-talks-to-lend-5-billion-to-ai-cloud-startup-fluidstack-to-shore-up-us-data-center-supply-chain/"
+    },
+    {
+      "source": "MarkTechPost",
+      "region": "GL",
+      "cats": ["IA"],
+      "title": "Cohere lança modelo de tradução gratuito com mais de 50 idiomas",
+      "summary": "A Cohere lançou o North Small Translate, modelo de tradução de pesos abertos com 218 bilhões de parâmetros e suporte a mais de 50 idiomas, disponível gratuitamente para uso não comercial. A empresa reporta pontuação de 83,6 no benchmark WMT26, superando concorrentes como DeepL e Google em avaliações próprias.",
+      "url": "https://www.marktechpost.com/2026/09/10/cohere-releases-north-small-translate-a-218b-moe-translation-model-that-scores-83-6-on-wmt26-across-50-languages/"
+    },
+    {
+      "source": "SAP Newsroom Brasil",
+      "region": "BR",
+      "cats": ["IA", "Mercado de Trabalho"],
+      "title": "Estudo da SAP mostra ROI de agentes de IA quadruplicando no Brasil",
+      "summary": "Levantamento da SAP com a Oxford Economics, apresentado no SAP NOW AI Tour Brasil, mostra que empresas brasileiras projetam retorno de 15% com agentes de IA até 2028 — o equivalente a US$ 24,8 milhões, mais de quatro vezes o valor apurado na pesquisa anterior. O investimento médio em IA das empresas brasileiras ouvidas também deve subir para US$ 20,8 milhões neste ano.",
+      "url": "https://news.sap.com/brazil/2026/09/roi-em-ia-agentica-deve-quadruplicar-no-brasil-aponta-estudo-da-sap/"
+    },
+    {
+      "source": "InfoMoney",
+      "region": "GL",
+      "cats": ["IA", "Dados"],
+      "title": "IA do Google mapeia efeito de 9 bilhões de mutações possíveis no DNA humano",
+      "summary": "O Google DeepMind criou o AlphaGenome Atlas, banco de dados que usa IA para prever o efeito biológico de todas as 9 bilhões de alterações possíveis de uma única letra no DNA humano, disponibilizado gratuitamente a pesquisadores. A ferramenta já ajudou cientistas do Broad Institute a identificar a causa genética de um caso de doença rara sem diagnóstico prévio.",
+      "url": "https://www.infomoney.com.br/business/global/ia-do-google-preve-impacto-de-todas-as-9-bilhoes-de-mutacoes-possiveis-do-dna-humano/"
+    }
+  ]
+}
