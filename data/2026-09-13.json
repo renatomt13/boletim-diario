@@ -1,0 +1,77 @@
+{
+  "date": "2026-09-13",
+  "items": [
+    {
+      "source": "TechCrunch",
+      "region": "GL",
+      "cats": ["IA", "Startups"],
+      "title": "Sam Altman diz que seria \"imprudente\" abrir capital da OpenAI em 2026",
+      "summary": "O CEO da OpenAI afirmou que, diante dos debates sobre segurança da IA, este seria um momento inadequado para a empresa abrir capital. Ele reforçou que o IPO só deve ocorrer quando o negócio e a sociedade estiverem prontos para a tecnologia, apesar de a empresa já ter arquivado um pedido confidencial de abertura de capital.",
+      "url": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "GL",
+      "cats": ["IA"],
+      "title": "Dario Amodei apresenta plano da Anthropic para desacelerar o ritmo da IA",
+      "summary": "O CEO da Anthropic detalhou estratégias para tentar pautar o avanço da inteligência artificial de forma mais segura, em meio a críticas internas e externas sobre a velocidade do desenvolvimento de modelos cada vez mais avançados.",
+      "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "GL",
+      "cats": ["Dados", "Tecnologia"],
+      "title": "Revolut confirma vazamento de dados de clientes por meio de pedidos falsos de um órgão governamental",
+      "summary": "A fintech britânica confirmou ter fornecido informações sensíveis de clientes após receber solicitações fraudulentas enviadas de um domínio de e-mail que imitava uma agência governamental legítima. Entre os dados expostos estão identidade, data de nascimento, endereço, telefone e cópias de documentos.",
+      "url": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/"
+    },
+    {
+      "source": "Help Net Security",
+      "region": "GL",
+      "cats": ["Dados"],
+      "title": "IDScan confirma invasão que expôs mais de 153 milhões de carteiras de motorista digitalizadas",
+      "summary": "Dias depois de reportagens ligarem a empresa a uma base vendida na dark web, a IDScan confirmou que hackers acessaram dados de clientes armazenados em sua plataforma na nuvem. É a confirmação oficial de um incidente já investigado pelo FBI desde o início de setembro, quando o caso foi noticiado pela primeira vez.",
+      "url": "https://www.helpnetsecurity.com/2026/09/11/idscan-net-data-breach-153-million-drivers-licenses/"
+    },
+    {
+      "source": "Exame",
+      "region": "BR",
+      "cats": ["Mercado de Trabalho", "IA"],
+      "title": "Não basta saber usar ChatGPT, apontam especialistas sobre preparo para o mercado",
+      "summary": "Reportagem destaca que entender como modelos de linguagem funcionam, seus limites e como avaliar resultados pode ser tão relevante para a carreira quanto dominar ferramentas de IA no dia a dia. O relatório Future of Jobs 2025, do Fórum Econômico Mundial, cita IA e big data entre as habilidades que mais crescem até 2030.",
+      "url": "https://exame.com/carreira/nao-basta-saber-usar-chatgpt-o-que-aprender-sobre-ia-para-se-preparar-para-o-mercado/"
+    },
+    {
+      "source": "Exame",
+      "region": "BR",
+      "cats": ["Mercado de Trabalho", "IA"],
+      "title": "Empresas que mais usam IA estão contratando mais, não menos, mostra reportagem",
+      "summary": "Levantamento mostra que companhias com maior adoção de inteligência artificial têm ampliado contratações, contrariando a narrativa de que a tecnologia elimina vagas. Pesquisa Ipsos com 30 países aponta que 35% dos entrevistados acreditam que a IA vai piorar o mercado de trabalho, enquanto 38% esperam melhora em seus próprios empregos.",
+      "url": "https://exame.com/inteligencia-artificial/trabalhadores-sinteticos-ia-emprego-mitos/"
+    },
+    {
+      "source": "SiliconANGLE",
+      "region": "GL",
+      "cats": ["IA", "Tecnologia"],
+      "title": "Salesforce lança Trusted Enterprise AI Harness para governar agentes de IA nas empresas",
+      "summary": "A nova arquitetura reúne seis capacidades voltadas à confiabilidade de agentes de IA corporativos, além de um AI Control Plane para descobrir, registrar e controlar custos de agentes próprios e de terceiros. Parte da tecnologia já está disponível, mas a experiência unificada só deve chegar no início do próximo ano fiscal da empresa.",
+      "url": "https://siliconangle.com/2026/09/10/salesforce-introduces-enterprise-ai-harness-ai-control-plane/"
+    },
+    {
+      "source": "TSMC",
+      "region": "GL",
+      "cats": ["Tecnologia", "Dados"],
+      "title": "TSMC bate recorde de receita mensal em agosto puxada pela demanda por chips de IA",
+      "summary": "A fabricante taiwanesa registrou receita consolidada de NT$ 514,81 bilhões em agosto, alta de 53,3% frente ao mesmo mês de 2025 — a primeira vez que a receita mensal da empresa ultrapassa NT$ 500 bilhões. Foi o quarto mês consecutivo de recorde, impulsionado pela forte demanda por chips avançados para inteligência artificial.",
+      "url": "https://pr.tsmc.com/english/news/3340"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "GL",
+      "cats": ["Tecnologia"],
+      "title": "Matt Mullenweg retorna ao cargo de CEO da Automattic após tentativa de destituição pelo conselho",
+      "summary": "A empresa por trás do WordPress.com confirmou que Mullenweg segue no comando após uma tentativa do conselho de afastá-lo nesta semana, afirmando que ele tem total apoio para continuar liderando a companhia.",
+      "url": "https://techcrunch.com/2026/09/12/automattic-confirms-mullenweg-has-returned-as-ceo-after-attempted-ouster-by-board/"
+    }
+  ]
+}
