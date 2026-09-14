@@ -1,0 +1,85 @@
+{
+  "date": "2026-09-14",
+  "items": [
+    {
+      "source": "CNN Business",
+      "region": "GL",
+      "cats": ["IA"],
+      "title": "Anthropic, OpenAI e Google discutem criar órgão próprio de padrões de segurança em IA",
+      "summary": "Anthropic, OpenAI e Google vêm se reunindo desde julho para avaliar a criação de um órgão setorial de padrões de segurança em IA, inspirado na Financial Industry Regulatory Authority dos EUA. A ideia partiu de um ensaio de Demis Hassabis e hoje é liderada por Dario Amodei, com apoio de Sam Altman, que defende que os laboratórios terão de construir essa estrutura sozinhos, sem apoio do governo americano. Nada foi finalizado até o momento.",
+      "url": "https://www.cnn.com/2026/09/14/tech/ai-standards-body"
+    },
+    {
+      "source": "Dataconomy",
+      "region": "GL",
+      "cats": ["IA"],
+      "title": "Satya Nadella diz que superinteligência precisa ficar sob controle humano",
+      "summary": "Em resposta ao ensaio de Dario Amodei sobre desacelerar o ritmo da IA, Satya Nadella afirmou que qualquer busca por superinteligência precisa estar fundamentada no princípio de que sistemas de IA devem ajudar a humanidade e permanecer sob controle humano. O CEO da Microsoft anunciou que a empresa publicará um \"Código de Conduta\" para seus modelos próprios MAI, aberto para consulta pública, defendendo um ritmo deliberado de desenvolvimento.",
+      "url": "https://dataconomy.com/2026/09/14/satya-nadella-says-superintelligence-must-remain-human-controlled/"
+    },
+    {
+      "source": "Tech Startups",
+      "region": "GL",
+      "cats": ["Startups", "Tecnologia"],
+      "title": "Healthtech sueca Tandem Health capta € 86,5 milhões; cibersegurança holandesa Fortaegis levanta US$ 50 milhões",
+      "summary": "A healthtech sueca Tandem Health captou € 86,49 milhões (cerca de US$ 100 milhões) em rodada Série B liderada por Scaleup Europe Fund/EQT, Kinnevik e Northzone, elevando seu total captado a cerca de € 138 milhões. Já a startup holandesa Fortaegis levantou US$ 50 milhões em Série A liderada pela Serendipity Capital, com participação da TEL Venture Capital, para desenvolver segurança em nível de silício voltada a sistemas de IA, satélites e defesa.",
+      "url": "https://techstartups.com/2026/09/14/startup-funding-news-today-september-14-2026-chift-qupital-tandem-health-fortaegis-more/"
+    },
+    {
+      "source": "Reuters (via Investing.com)",
+      "region": "GL",
+      "cats": ["Startups", "IA"],
+      "title": "Anthropic diz a investidores que terá lucro pelo segundo trimestre seguido",
+      "summary": "A Anthropic informou a investidores que deve registrar lucro operacional ajustado positivo pelo segundo trimestre consecutivo, com margens brutas acima de 80% e receita de US$ 11,5 bilhões — alta de 14 vezes em relação ao ano anterior, segundo reportagem do Financial Times. A empresa já soma 6 mil clientes que gastam pelo menos US$ 100 mil por ano, e alguns investidores projetam receita anual de US$ 120 bilhões até o fim do ano.",
+      "url": "https://www.investing.com/news/stock-market-news/anthropic-tells-investors-it-will-be-profitable-for-second-straight-quarter-ft-reports-4898761"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "GL",
+      "cats": ["Startups"],
+      "title": "Demo Day da Y Combinator tem safra mais voltada a deep tech, segundo VCs",
+      "summary": "O mais recente Demo Day da Y Combinator apresentou um lote de startups mais concentrado em deep tech do que em ciclos anteriores, segundo investidores early-stage ouvidos pela TechCrunch. As nove startups mais citadas por ao menos dois VCs tiveram tecnologias descritas como \"de ficção científica\", ainda que as avaliações estejam mais moderadas que em safras recentes.",
+      "url": "https://techcrunch.com/2026/09/13/the-9-buzziest-startups-from-y-combinators-latest-demo-day-according-to-vcs/"
+    },
+    {
+      "source": "Fortune",
+      "region": "GL",
+      "cats": ["IA", "Dados"],
+      "title": "Restrições de chips levam labs de IA chineses a apostar em eficiência",
+      "summary": "Com acesso limitado aos chips mais avançados da Nvidia, laboratórios de IA chineses têm buscado ganhos de eficiência algorítmica em vez de mais poder computacional, segundo reportagem da Fortune. Um relatório da Casa Branca aponta que os EUA concentram 74% da capacidade computacional mundial, mas modelos chineses como GLM 5.2 e Kimi 2.6/2.7 já resolveriam cerca de 75% das tarefas de engenharia de forma satisfatória por um quinto do custo dos modelos americanos.",
+      "url": "https://fortune.com/2026/09/13/china-us-ai-models-efficient/"
+    },
+    {
+      "source": "SiliconANGLE",
+      "region": "GL",
+      "cats": ["Tecnologia", "Dados"],
+      "title": "'Q-Day': maioria das organizações não está pronta para ameaça da computação quântica à criptografia",
+      "summary": "Reportagem da SiliconANGLE alerta que a maioria das organizações ainda não iniciou a migração para criptografia pós-quântica, mesmo com o avanço de computadores quânticos capazes de quebrar protocolos que hoje protegem a internet. O Google já definiu 2029 como prazo-limite interno para a transição, mas dados sensíveis seguem expostos ao risco de ataques do tipo \"colher agora, decifrar depois\".",
+      "url": "https://siliconangle.com/2026/09/13/q-day-is-approaching-most-organizations-arent-ready/"
+    },
+    {
+      "source": "Olhar Digital",
+      "region": "BR",
+      "cats": ["Tecnologia", "Dados"],
+      "title": "LG nega que smart TVs espionem conversas dos usuários",
+      "summary": "A LG publicou nota no último sábado (12) rebatendo acusações de que suas smart TVs captam e espionam conversas dos usuários, afirmando que os aparelhos não gravam nem transmitem áudio de forma contínua. A polêmica surgiu após investigação do canal Gamers Nexus, que levantou suspeitas sobre a captura de dados de voz pelos microfones dos televisores.",
+      "url": "https://olhardigital.com.br/2026/09/12/seguranca/lg-rebate-acusacoes-de-que-smart-tvs-espionam-usuarios"
+    },
+    {
+      "source": "SiliconANGLE",
+      "region": "GL",
+      "cats": ["IA", "Startups"],
+      "title": "Startup Supio aposta em agentes de IA de 'longo horizonte' para escritórios de advocacia",
+      "summary": "A startup Supio desenvolve agentes de IA capazes de assumir responsabilidade por trabalho jurídico que se estende por dias ou semanas, e não apenas tarefas pontuais como buscas ou resumos. Segundo a SiliconANGLE, a aposta é que a próxima fase da IA no setor jurídico dependerá da capacidade desses agentes de sustentar processos contínuos e complexos dentro dos escritórios.",
+      "url": "https://siliconangle.com/2026/09/13/supios-long-horizon-agents-point-to-a-new-operating-model-for-law-firms/"
+    },
+    {
+      "source": "Unite.AI",
+      "region": "GL",
+      "cats": ["Tecnologia", "IA"],
+      "title": "Salesforce lança sete agentes de IA com nomes próprios para funções específicas",
+      "summary": "A Salesforce apresentou sete agentes de IA batizados com nomes próprios — Casey, Paige, Carter, Hunter, Marshall, Piper e Fin —, cada um dedicado a uma função de negócio, como atendimento ao cliente, RH, TI, comércio e cadeia de suprimentos. Casey atende clientes por voz, SMS, WhatsApp e chat, incluindo devoluções; seis dos sete agentes já estão disponíveis, com lançamento geral do sétimo previsto para novembro de 2026.",
+      "url": "https://www.unite.ai/salesforce-debuts-job-ready-agentforce-agents-and-long-horizon-runtime/"
+    }
+  ]
+}
