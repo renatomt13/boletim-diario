@@ -1,0 +1,85 @@
+{
+  "date": "2026-09-15",
+  "items": [
+    {
+      "source": "CNBC",
+      "region": "GL",
+      "cats": ["Startups", "IA"],
+      "title": "Startup holandesa Euclyd capta US$ 230 milhões com apoio da Samsung para desafiar a Nvidia",
+      "summary": "A Euclyd, startup de chips de IA voltados à inferência, fechou rodada de US$ 230 milhões liderada por Samsung, Somerset Capital Partners, Scaleup Europe Fund e Innovation Industries. A empresa desenvolve uma arquitetura de processador e memória diferente da GPU, com meta de lançar sistemas físicos até 2028 e atender milhares de clientes corporativos até 2030.",
+      "url": "https://www.cnbc.com/2026/09/14/samsung-euclyd-ai-chip-funding.html"
+    },
+    {
+      "source": "Fortune",
+      "region": "GL",
+      "cats": ["IA"],
+      "title": "Microsoft publica rascunho de código de conduta para manter IA sob controle humano",
+      "summary": "Um dia depois de a Microsoft anunciar a intenção de criar as regras, a empresa publicou o rascunho completo de seu 'Humanist AI Code of Conduct', documento de 37 páginas que veta seus futuros modelos de resistirem a correções ou desligamento e proíbe auxílio em armas químicas, biológicas, radiológicas, nucleares ou explosivas. O texto, elaborado ao longo de cinco a seis meses sob o CEO de IA Mustafa Suleyman, está em consulta pública por seis semanas antes de orientar o treinamento da próxima geração de modelos da empresa.",
+      "url": "https://fortune.com/2026/09/14/microsoft-suleyman-ai-safety-code-of-conduct/"
+    },
+    {
+      "source": "CNBC",
+      "region": "GL",
+      "cats": ["IA"],
+      "title": "Trump rejeita pacto de desaceleração da IA e ações de chips despencam",
+      "summary": "Depois de Dario Amodei, Sam Altman e Elon Musk defenderem publicamente desacelerar o avanço da IA por segurança, o presidente Donald Trump rejeitou a ideia, chamou o temor de uma IA 'destruindo a humanidade' de boato e criticou o CEO da Anthropic. A repercussão derrubou na Nasdaq as ações de fabricantes de chips e servidores ligados ao boom de IA, enquanto papéis de empresas de cibersegurança subiram.",
+      "url": "https://www.cnbc.com/2026/09/14/ai-stocks-slowdown-amodei-altman.html"
+    },
+    {
+      "source": "MacRumors",
+      "region": "GL",
+      "cats": ["Tecnologia", "IA"],
+      "title": "Apple lança macOS 27 Golden Gate com Siri como aplicativo dedicado de IA",
+      "summary": "A Apple liberou o macOS 27 'Golden Gate' para Macs com chip Apple Silicon, trazendo uma Siri redesenhada com IA que ganha aplicativo próprio, conversas mais naturais por texto ou voz e memória de contexto pessoal. Os recursos mais avançados exigem Macs com chip M3 ou superior e ao menos 12 GB de memória, e a atualização não está disponível para Macs com processador Intel.",
+      "url": "https://www.macrumors.com/2026/09/14/apple-releases-macos-golden-gate/"
+    },
+    {
+      "source": "Business Standard",
+      "region": "GL",
+      "cats": ["Mercado de Trabalho"],
+      "title": "Demissões no setor de tecnologia já superam 128 mil em 2026",
+      "summary": "Segundo o rastreador Layoffs.fyi, empresas de tecnologia eliminaram 128.536 postos de trabalho em 299 companhias até 10 de setembro, superando os 122.606 cortes registrados em todo o ano de 2025. Somente nos dez primeiros dias de setembro, mais de 5 mil vagas foram cortadas em empresas como Uber, PayPal, Apple, Zomato e Oracle.",
+      "url": "https://www.business-standard.com/industry/news/global-tech-layoffs-2026-oracle-amazon-dell-uber-paypal-it-sector-job-cuts-126091100188_1.html"
+    },
+    {
+      "source": "Exame",
+      "region": "BR",
+      "cats": ["Mercado de Trabalho", "IA"],
+      "title": "Estatística mais repetida sobre currículos rejeitados por IA não tem fonte real, revela investigação",
+      "summary": "A Exame rastreou a origem do dado de que '75% dos currículos são descartados por IA antes de chegar a um recrutador' e encontrou apenas um material de vendas de 2012 de uma empresa que fechou em 2013, sem jamais publicar a metodologia. Pesquisa recente da Enhancv mostrou que 92% dos recrutadores entrevistados não configuram nenhuma regra de rejeição automática por conteúdo, formatação ou design do currículo.",
+      "url": "https://exame.com/carreira/o-dado-mais-repetido-sobre-curriculo-e-ia-no-recrutamento-nao-tem-fonte-nenhuma/"
+    },
+    {
+      "source": "TI Inside",
+      "region": "BR",
+      "cats": ["IA", "Dados"],
+      "title": "Pesquisa da Pipefy: 71% das empresas brasileiras usam IA, mas só 6% de ponta a ponta",
+      "summary": "Levantamento da Pipefy mostra que 71% das empresas no Brasil já utilizam ferramentas de IA em fluxos de trabalho, mas apenas 6% têm processos totalmente orquestrados e integrados pela tecnologia. Falta de conhecimento técnico (58%) e preocupações com segurança, privacidade e compliance (51%) aparecem como as principais barreiras a uma adoção mais ampla.",
+      "url": "https://tiinside.com.br/14/09/2026/71-das-empresas-usam-a-tecnologia-mas-so-6-a-aplicam-de-ponta-a-ponta-no-brasil-aponta-pipefy/"
+    },
+    {
+      "source": "TI Inside",
+      "region": "BR",
+      "cats": ["IA", "Startups"],
+      "title": "Fintech Jeitto aumenta em 470% crédito recuperado via WhatsApp com uso de IA",
+      "summary": "A Jeitto, empresa de crédito para consumidores de baixa renda, elevou em 470% o volume de crédito recuperado pelo WhatsApp após incorporar modelos de IA à estratégia de cobrança, que passaram a identificar padrões de carteira, segmentar clientes por faixa de atraso e definir estratégias de contato. A solução foi testada entre junho e agosto de 2025 e incorporada à operação desde janeiro de 2026.",
+      "url": "https://tiinside.com.br/14/09/2026/jeitto-aumenta-em-470-credito-recuperado-pelo-whatsapp-com-uso-de-ia/"
+    },
+    {
+      "source": "TI Inside",
+      "region": "BR",
+      "cats": ["Dados", "Mercado de Trabalho"],
+      "title": "Cibersegurança vira principal risco para CEOs de grandes empresas brasileiras",
+      "summary": "Pela primeira vez, ameaças cibernéticas e privacidade de dados lideram o ranking de riscos de negócio citado por CEOs brasileiros, segundo o CEO Outlook da EY-Parthenon com 50 executivos de grandes companhias — à frente de tensões geopolíticas, incerteza regulatória e volatilidade macroeconômica. O levantamento aponta que mais de 220 mil profissionais foram treinados em tecnologia e cibersegurança no último ano, quase metade da força de trabalho do setor bancário.",
+      "url": "https://tiinside.com.br/10/09/2026/ciberseguranca-saiu-da-sala-de-ti-e-vira-o-risco-numero-um/"
+    },
+    {
+      "source": "Bloomberg",
+      "region": "GL",
+      "cats": ["Startups", "Tecnologia"],
+      "title": "Fabricante chinesa de chips de IA Biren avalia captar US$ 1 bilhão em nova venda de ações",
+      "summary": "A Biren Technology, rival chinesa da Nvidia em chips de IA, estuda uma nova captação de cerca de US$ 1 bilhão em ações, dois meses depois de levantar quase HK$ 7,07 bilhões em sua primeira colocação após o IPO. O chip BR100 da empresa, com 77 bilhões de transistores em processo de 7nm, é posicionado como alternativa a produtos da Nvidia restritos pelos controles de exportação dos EUA.",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-15/chinese-ai-chip-darling-biren-said-to-mull-1-billion-share-sale"
+    }
+  ]
+}
