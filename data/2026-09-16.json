@@ -1,0 +1,85 @@
+{
+  "date": "2026-09-16",
+  "items": [
+    {
+      "source": "TechCrunch",
+      "region": "GL",
+      "cats": ["Tecnologia", "IA"],
+      "title": "Amazon lança Alexa+ na Índia com suporte a hindi",
+      "summary": "A Amazon iniciou o acesso antecipado gratuito ao assistente Alexa+ na Índia, com suporte a inglês, hindi e \"hinglish\" e integração com serviços locais como Swiggy, Zomato e MakeMyTrip. Após o período de testes, o assistente será gratuito para clientes Prime e custará cerca de ₹2.000 (US$ 20,85) por mês para os demais usuários.",
+      "url": "https://techcrunch.com/2026/09/16/amazon-launches-alexa-in-india-with-hindi-support/"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "GL",
+      "cats": ["Tecnologia", "IA"],
+      "title": "Meta amplia assinaturas com novos planos de IA de até US$ 499",
+      "summary": "A Meta expandiu o Meta One com planos pagos dedicados à IA — Meta One Plus (US$ 7,99/mês) e Premium (US$ 19,99/mês) — além de níveis para criadores e empresas que chegam a US$ 499 por mês. O uso básico do Meta AI continua gratuito, mas assinantes ganham mais capacidade de raciocínio e de geração de vídeo e imagem.",
+      "url": "https://techcrunch.com/2026/09/15/meta-expands-subscription-push-with-new-ai-focused-plans/"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "GL",
+      "cats": ["Tecnologia", "Dados"],
+      "title": "Boom de data centers de IA esbarra em cidades marcadas por indústria pesada",
+      "summary": "Moradores da Filadélfia protestaram contra a possível construção de data centers de IA em bairros já afetados por uma refinaria de petróleo desativada, reunindo mais de 100 pessoas em ato na prefeitura. A cidade se junta a Denver, Indianápolis, Asheville, Charlotte e Reno, que já aprovaram moratórias para esse tipo de empreendimento.",
+      "url": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "GL",
+      "cats": ["Startups", "IA"],
+      "title": "Startup fundada por ex-Anthropic capta US$ 40 milhões para auditar agentes de IA",
+      "summary": "A AIUC, criada por um ex-funcionário da Anthropic e pelo ex-COO da METR, fechou uma Série A de US$ 40 milhões liderada pela Ribbit Capital para expandir sua camada de auditoria e certificação de segurança para agentes de IA. A empresa já soma US$ 55 milhões captados e tem Cursor, Lovable, Harvey e ElevenLabs como clientes.",
+      "url": "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "GL",
+      "cats": ["Startups", "IA"],
+      "title": "Profound vira unicórnio com Série D de US$ 180 milhões para otimizar marcas em respostas de IA",
+      "summary": "A startup de \"AEO\" (otimização para mecanismos de resposta de IA) Profound captou US$ 180 milhões em rodada liderada por Sequoia e Kleiner Perkins, sete meses após uma Série C de US$ 96 milhões, atingindo avaliação de US$ 1,8 bilhão. A empresa diz ter triplicado a receita em seis meses e soma mais de mil clientes corporativos, como Comcast e Walmart.",
+      "url": "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/"
+    },
+    {
+      "source": "Olhar Digital",
+      "region": "BR",
+      "cats": ["Dados", "Tecnologia"],
+      "title": "Governo brasileiro avança em projeto de nuvem soberana com controle sobre código e dados",
+      "summary": "O governo federal negocia parceria entre Serpro e empresas privadas de capital majoritariamente brasileiro para criar uma nuvem nacional, com edital previsto para novembro. A ideia é permitir o uso de tecnologia estrangeira desde que o controle do código e da operação fique no Brasil, evitando dependência jurídica de fornecedores externos para dados estratégicos.",
+      "url": "https://olhardigital.com.br/2026/09/15/pro/governo-brasileiro-quer-nuvem-propria-com-controle-sobre-codigo-e-dados"
+    },
+    {
+      "source": "Olhar Digital",
+      "region": "GL",
+      "cats": ["IA"],
+      "title": "Bill Gates diz que governos estão despreparados para mudanças trazidas pela IA",
+      "summary": "O fundador da Microsoft afirmou que nenhum governo no mundo está tão preparado quanto deveria para as transformações que a inteligência artificial pode trazer à sociedade. A declaração se soma a uma série recente de alertas de líderes do setor sobre o ritmo acelerado de avanço da IA.",
+      "url": "https://olhardigital.com.br/2026/09/15/inteligencia-artificial/ia-preocupa-bill-gates-que-ve-governos-despreparados-para-mudancas"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "GL",
+      "cats": ["Dados", "Tecnologia"],
+      "title": "Golpes \"ClickFix\" driblam defesas e fazem usuários hackearem o próprio computador",
+      "summary": "Ataques do tipo ClickFix usam páginas falsas de verificação, como um CAPTCHA, para induzir vítimas a colar comandos maliciosos no terminal do Windows ou do Mac, instalando malware que rouba senhas, contas logadas e carteiras de criptomoedas. A técnica, antes rara, virou uma das ameaças de cibersegurança que mais cresceram em 2026 e agora também atinge usuários de macOS com mais frequência.",
+      "url": "https://techcrunch.com/2026/09/14/clickfix-attacks-are-tricking-mac-and-windows-users-into-hacking-themselves/"
+    },
+    {
+      "source": "InfoMoney",
+      "region": "BR",
+      "cats": ["Startups"],
+      "title": "A5X capta R$ 360 milhões em rodada Série D e é avaliada em R$ 2,7 bilhões",
+      "summary": "A A5X, que constrói uma nova bolsa de derivativos e câmara de compensação no Brasil, levantou R$ 360 milhões em rodada liderada por Morgan Stanley, Goldman Sachs e Kaszek, com a XP também entrando como investidora. Com isso, a empresa já captou mais de R$ 730 milhões em quatro rodadas e prevê iniciar operações no segundo trimestre de 2027.",
+      "url": "https://www.infomoney.com.br/business/a5x-capta-r-360-milhoes-em-rodada-serie-d-e-avalia-empresa-em-r-27-bi/"
+    },
+    {
+      "source": "InfoMoney",
+      "region": "GL",
+      "cats": ["Mercado de Trabalho", "IA"],
+      "title": "Mulheres ocupam só 26% das novas contratações em IA nos EUA",
+      "summary": "Levantamento do LinkedIn mostra que mulheres representaram apenas 26% das contratações em cargos de inteligência artificial nos Estados Unidos em 2025, contra 50% nas demais ocupações, e ocupam só 13% das posições de C-level em empresas de IA. Vagas do setor pagam em média US$ 177 mil por ano, mais que o dobro de cargos sem foco em IA.",
+      "url": "https://www.infomoney.com.br/carreira/mulheres-inteligencia-artificial-contratacoes/"
+    }
+  ]
+}
